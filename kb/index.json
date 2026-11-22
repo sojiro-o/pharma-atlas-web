@@ -1,0 +1,42 @@
+{
+ "format": "atlas-kb-index/v1",
+ "generatedAt": "2026-11-22T13:56:12.561Z",
+ "site": "https://sojiro-o.github.io/pharma-atlas-web/",
+ "maps": [
+  {
+   "id": "mech:aspirin.antiplatelet",
+   "title": "アスピリンの抗血小板作用機序（COX-1 Ser530 不可逆的アセチル化と TXA2 経路阻害）",
+   "drug": "アスピリン（アセチルサリチル酸）",
+   "drugId": "drug:aspirin",
+   "brandNames": [
+    "バイアスピリン錠100mg",
+    "バッサミン配合錠A81",
+    "Easprin",
+    "Durlaza"
+   ],
+   "status": "candidate",
+   "statusJa": "未レビュー（AI作成・出典確認済み）",
+   "summary": "アスピリンは血小板のシクロオキシゲナーゼ-1（COX-1 / PTGS1）の Ser530（残基番号 Ser530 は結晶構造解析で用いられるヒツジ COX-1 の番号づけ。ヒト COX-1（UniProt P23219）では同じ残基が Ser529 にあたる）を不可逆的にアセチル化して活性部位チャネルを立体的に遮断し、アラキドン酸からプロスタグランジン H2（PGH2）への変換を阻害する。その結果、トロンボキサン A 合成酵素（TBXAS1）によるトロンボキサン A2（TXA2）産生および TP 受容体（TBXA2R）刺激が低下し、血小板活性化・凝集が抑制されて心血管イベントの二次予防効果を発揮する。無核の血小板は COX-1 を再合成できないため阻害が血小板の寿命の間持続する一方、胃粘膜プロスタグランジン産生抑制と血小板機能抑制により消化管粘膜障害・出血リスクが増加する。",
+   "html": "https://sojiro-o.github.io/pharma-atlas-web/kb/mech_aspirin.antiplatelet.html",
+   "json": "https://sojiro-o.github.io/pharma-atlas-web/kb/mech_aspirin.antiplatelet.json",
+   "viewer": "https://sojiro-o.github.io/pharma-atlas-web/#/mechanism/mech%3Aaspirin.antiplatelet"
+  },
+  {
+   "id": "mech:enalapril.raas",
+   "title": "エナラプリルの RAAS・キニン系作用機序（肝 CES1 による活性化と ACE 阻害）",
+   "drug": "エナラプリル（製剤としてはエナラプリルマレイン酸塩）",
+   "drugId": "drug:enalapril",
+   "brandNames": [
+    "レニベース",
+    "Vasotec",
+    "Epaned"
+   ],
+   "status": "candidate",
+   "statusJa": "未レビュー（AI作成・出典確認済み）",
+   "summary": "経口プロドラッグであるエナラプリルは消化管から 60〜70% 吸収された後、肝カルボキシルエステラーゼ 1（CES1）によるエステル加水分解を受けて活性ジアシッド体エナラプリラートに変換される。エナラプリラートはアンジオテンシン変換酵素（ACE / キニナーゼ II, P12821）を強力かつ競合的に阻害し、アンジオテンシン I からアンジオテンシン II への変換を抑制して AT1 受容体（AGTR1）刺激を低下させる。これにより血管平滑筋収縮および副腎アルドステロン分泌が低下し、血圧低下と慢性心不全の予後改善をもたらす。一方、アルドステロン低下による高カリウム血症、腎輸出細動脈拡張による腎灌流圧低下時の糸球体濾過量（GFR）低下・血清クレアチニン上昇（高窒素血症）、およびキニナーゼ II 阻害によるブラジキニン分解低下・蓄積が関与する乾性咳嗽や血管浮腫の機序を併せ持つ。",
+   "html": "https://sojiro-o.github.io/pharma-atlas-web/kb/mech_enalapril.raas.html",
+   "json": "https://sojiro-o.github.io/pharma-atlas-web/kb/mech_enalapril.raas.json",
+   "viewer": "https://sojiro-o.github.io/pharma-atlas-web/#/mechanism/mech%3Aenalapril.raas"
+  }
+ ]
+}

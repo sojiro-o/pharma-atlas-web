@@ -1,0 +1,1527 @@
+{
+ "id": "mech:aspirin.antiplatelet",
+ "title": "アスピリンの抗血小板作用機序（COX-1 Ser530 不可逆的アセチル化と TXA2 経路阻害）",
+ "drug": "アスピリン（アセチルサリチル酸）",
+ "drugId": "drug:aspirin",
+ "brandNames": [
+  "バイアスピリン錠100mg",
+  "バッサミン配合錠A81",
+  "Easprin",
+  "Durlaza"
+ ],
+ "status": "candidate",
+ "statusJa": "未レビュー（AI作成・出典確認済み）",
+ "summary": "アスピリンは血小板のシクロオキシゲナーゼ-1（COX-1 / PTGS1）の Ser530（残基番号 Ser530 は結晶構造解析で用いられるヒツジ COX-1 の番号づけ。ヒト COX-1（UniProt P23219）では同じ残基が Ser529 にあたる）を不可逆的にアセチル化して活性部位チャネルを立体的に遮断し、アラキドン酸からプロスタグランジン H2（PGH2）への変換を阻害する。その結果、トロンボキサン A 合成酵素（TBXAS1）によるトロンボキサン A2（TXA2）産生および TP 受容体（TBXA2R）刺激が低下し、血小板活性化・凝集が抑制されて心血管イベントの二次予防効果を発揮する。無核の血小板は COX-1 を再合成できないため阻害が血小板の寿命の間持続する一方、胃粘膜プロスタグランジン産生抑制と血小板機能抑制により消化管粘膜障害・出血リスクが増加する。",
+ "html": "https://sojiro-o.github.io/pharma-atlas-web/kb/mech_aspirin.antiplatelet.html",
+ "json": "https://sojiro-o.github.io/pharma-atlas-web/kb/mech_aspirin.antiplatelet.json",
+ "viewer": "https://sojiro-o.github.io/pharma-atlas-web/#/mechanism/mech%3Aaspirin.antiplatelet",
+ "map": {
+  "id": "mech:aspirin.antiplatelet",
+  "drugId": "drug:aspirin",
+  "title": {
+   "ja": "アスピリンの抗血小板作用機序（COX-1 Ser530 不可逆的アセチル化と TXA2 経路阻害）",
+   "en": "Antiplatelet mechanism of aspirin (irreversible COX-1 Ser530 acetylation and TXA2 pathway inhibition)"
+  },
+  "summary": {
+   "ja": "アスピリンは血小板のシクロオキシゲナーゼ-1（COX-1 / PTGS1）の Ser530（残基番号 Ser530 は結晶構造解析で用いられるヒツジ COX-1 の番号づけ。ヒト COX-1（UniProt P23219）では同じ残基が Ser529 にあたる）を不可逆的にアセチル化して活性部位チャネルを立体的に遮断し、アラキドン酸からプロスタグランジン H2（PGH2）への変換を阻害する。その結果、トロンボキサン A 合成酵素（TBXAS1）によるトロンボキサン A2（TXA2）産生および TP 受容体（TBXA2R）刺激が低下し、血小板活性化・凝集が抑制されて心血管イベントの二次予防効果を発揮する。無核の血小板は COX-1 を再合成できないため阻害が血小板の寿命の間持続する一方、胃粘膜プロスタグランジン産生抑制と血小板機能抑制により消化管粘膜障害・出血リスクが増加する。",
+   "en": "Aspirin irreversibly acetylates Ser530 of platelet COX-1 (PTGS1), sterically blocking the active-site channel and inhibiting conversion of arachidonic acid to PGH2. This reduces TBXAS1-mediated TXA2 synthesis and TP receptor (TBXA2R) stimulation, inhibiting platelet activation and aggregation for secondary prevention of cardiovascular events. (Ser530 follows the ovine COX-1 numbering used in the crystal structures; the same residue is Ser529 in human COX-1, UniProt P23219.)"
+  },
+  "scope": {
+   "ja": "低用量アスピリンによる血小板 COX-1 阻害（無核血小板における持続的阻害を含む）から TXA2 産生低下、TP 受容体（TBXA2R）を介した血小板凝集抑制、サリチル酸への加水分解、および上部消化管粘膜障害・出血リスクまでの分子〜臨床階層を扱う。高用量での NF-κB 等の非 COX 経路や抗腫瘍仮説は本マップの対象外とする。",
+   "en": "Covers platelet COX-1 inhibition (including persistence in anucleate platelets), TXA2/TP receptor pathway suppression, hydrolysis to salicylic acid, secondary cardiovascular prevention, and GI/bleeding adverse effects."
+  },
+  "nodes": [
+   {
+    "id": "aspirin",
+    "kind": "drug",
+    "level": "molecular",
+    "label": {
+     "ja": "アスピリン（アセチルサリチル酸）",
+     "en": "Aspirin (Acetylsalicylic acid)"
+    },
+    "description": {
+     "ja": "アセチル基を有するサリチル酸誘導体。経口投与後、前全身循環（門脈血など）で血小板 COX-1 を不可逆的にアセチル化し、全身循環では非特異的エステラーゼにより血清半減期約 20 分でサリチル酸へ加水分解される。",
+     "en": "Acetylated salicylate derivative that irreversibly acetylates platelet COX-1 in the presystemic circulation and is hydrolyzed to salicylic acid with a serum half-life of approximately 20 minutes."
+    },
+    "entityRef": "cmp:pubchem:2244",
+    "externalIds": {
+     "pubchemCid": 2244,
+     "chemblId": "CHEMBL25",
+     "chebiId": "CHEBI:15365",
+     "inchiKey": "BSYNRYMUTXBXSQ-UHFFFAOYSA-N",
+     "keggDrugId": "D00109"
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:3888490",
+      "level": "human",
+      "claimType": "measured",
+      "supports": {
+       "ja": "経口投与されたアスピリンは吸収半減期 5〜16 分の一次速度論で吸収され、肝臓および胃の非特異的エステラーゼによりサリチル酸へ加水分解されるため、未変化体として全身循環に到達するのは投与量の 68% であり、血清半減期は約 20 分である。",
+       "en": "Orally administered aspirin is absorbed with an absorption half-life of 5 to 16 minutes; 68% reaches the systemic circulation as intact aspirin after esterase hydrolysis, and its serum half-life is approximately 20 minutes."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト血漿・血清（経口投与後の全身循環）",
+      "method": "臨床薬物動態解析（経口投与後の吸収・加水分解および血清半減期測定）",
+      "measurement": {
+       "quantity": "t1/2",
+       "value": 20,
+       "unit": "min",
+       "conditions": "Human serum elimination half-life of intact aspirin after oral dosing"
+      }
+     },
+     {
+      "referenceId": "ref:pmid:24605250",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "低用量アスピリン（1日75 mg以上）は前全身循環において血小板の COX-1 を完全かつ持続的に阻害する一方、ヒト循環血中での半減期は約 20 分と短い。",
+       "en": "Daily low-dose aspirin (at least 75 mg) achieves complete and persistent inhibition of platelet COX-1 in the pre-systemic circulation while having a short circulation half-life of about 20 minutes."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト前全身循環および全身循環血小板",
+      "method": "低用量アスピリン（75 mg/日以上）反復投与時の臨床薬理学的総説"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "salicylic-acid",
+    "kind": "metabolite",
+    "level": "molecular",
+    "label": {
+     "ja": "サリチル酸（加水分解代謝物）",
+     "en": "Salicylic acid"
+    },
+    "description": {
+     "ja": "アスピリンが肝臓や胃などの非特異的エステラーゼによって脱アセチル化されて生じる主要代謝物。アセチル基を持たないため血小板蛋白質をアセチル化せず、血清アルブミンに結合して分布し、一部は未変化体として腎排泄され、残りはグルクロン酸抱合やグリシン抱合（サリチル尿酸生成）を受ける。",
+     "en": "Primary metabolite formed by deacetylation of aspirin by nonspecific esterases; lacks the acetyl group needed for protein acetylation and undergoes conjugation and renal excretion."
+    },
+    "entityRef": "cmp:pubchem:338",
+    "externalIds": {
+     "pubchemCid": 338,
+     "chemblId": "CHEMBL424",
+     "inchiKey": "YGSDEFSMJLZEOE-UHFFFAOYSA-N"
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:3888490",
+      "level": "human",
+      "claimType": "measured",
+      "supports": {
+       "ja": "アスピリン濃度の低下に伴いサリチル酸濃度が急速に上昇し、サリチル酸は一部が未変化体として腎排泄されるほか、グルクロン酸抱合やグリシン抱合（サリチル尿酸生成）およびゲンチジン酸への酸化によって代謝され、その血清半減期は用量依存性を示す。",
+       "en": "The fall in aspirin concentration is associated with a rapid rise in salicylic acid concentration, which is eliminated via renal excretion and hepatic conjugation with dose-dependent serum half-life."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト血清・肝代謝・尿中排泄系",
+      "method": "サリチル酸塩の臨床薬物動態解析"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "cox1-acetylation",
+    "kind": "reaction",
+    "level": "molecular",
+    "label": {
+     "ja": "COX-1 Ser530 の不可逆的アセチル化",
+     "en": "Irreversible acetylation of COX-1 Ser530"
+    },
+    "description": {
+     "ja": "アスピリンがプロスタグランジン H2 合成酵素 1（COX-1）の活性部位チャネル内のセリン 530（Ser530）残基（残基番号 Ser530 は結晶構造解析で用いられるヒツジ COX-1 の番号づけ。ヒト COX-1（UniProt P23219）では同じ残基が Ser529 にあたる）を選択的にアセチル化する反応。大きな立体構造変化ではなく、アセチル化された Ser530 側鎖が活性部位チャネルを立体的に塞ぐことでシクロオキシゲナーゼ活性を消失させる。",
+     "en": "Selective covalent acetylation of serine 530 on PGHS-1 (COX-1), which abolishes cyclooxygenase activity by steric blockage of the active-site channel. (Ser530 follows the ovine COX-1 numbering used in the crystal structures; the same residue is Ser529 in human COX-1, UniProt P23219.)"
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:7552725",
+      "level": "in_vitro",
+      "claimType": "measured",
+      "supports": {
+       "ja": "ヒツジ由来プロスタグランジン H2 合成酵素 1（PGHS-1）の 3.4 Å 分解能 X 線結晶構造解析により、アスピリンは Ser530 の選択的アセチル化を介して大きなコンフォメーション変化ではなく活性部位チャネルの立体的遮断を引き起こし、シクロオキシゲナーゼ活性を消失させることが示された。",
+       "en": "The 3.4 A X-ray crystal structure of inactivated ovine PGHS-1 shows that selective acetylation of serine 530 abolishes cyclooxygenase activity by steric blockage of the active-site channel."
+      },
+      "species": "Ovis aries",
+      "system": "精製ヒツジ精嚢プロスタグランジン H2 合成酵素 1（PGHS-1 / COX-1）結晶 (PDB: 1PTH)",
+      "method": "アスピリン誘導体（2-ブロモアセトキシ安息香酸）により不活化された PGHS-1 の 3.4 Å 分解能 X 線結晶構造解析"
+     },
+     {
+      "referenceId": "ref:pmid:810797",
+      "level": "in_vitro",
+      "claimType": "measured",
+      "supports": {
+       "ja": "ヒツジまたはウシ精嚢ミクロソームにおいて、[acetyl-3H]アスピリンによるプロスタグランジン合成酵素（シクロオキシゲナーゼ、分子量 85,000）のアセチル化は酵素阻害と同一の時間経過・濃度で進行し、100 μM アスピリン・37℃・15 分で 50% の酵素阻害と最大アセチル化の 50% が観察される。",
+       "en": "In sheep or bovine seminal vesicle microsomes, aspirin-mediated acetylation proceeds with the same time course and concentration as cyclo-oxygenase inhibition, with 50% inhibition and 50% maximal acetylation at 100 uM after 15 min at 37 degrees C."
+      },
+      "species": "Ovis aries, Bos taurus",
+      "system": "ヒツジおよびウシ精嚢ミクロソーム画分（Sheep or bovine seminal vesicle microsomes）",
+      "method": "[acetyl-3H]アスピリン（200 Ci/mol）インキュベーションと SDS-PAGE によるアセチル化定量および酵素阻害測定",
+      "measurement": {
+       "quantity": "IC50",
+       "value": 100,
+       "unit": "uM",
+       "conditions": "15 min incubation at 37 degrees C in sheep or bovine seminal vesicle microsomes"
+      }
+     }
+    ],
+    "status": "candidate",
+    "externalIds": {
+     "uniprot": "P23219",
+     "hgncSymbol": "PTGS1"
+    }
+   },
+   {
+    "id": "ptgs1",
+    "kind": "enzyme",
+    "level": "molecular",
+    "label": {
+     "ja": "シクロオキシゲナーゼ-1（COX-1 / PTGS1）",
+     "en": "Cyclooxygenase-1 (COX-1 / PTGS1)"
+    },
+    "description": {
+     "ja": "アラキドン酸からプロスタグランジン G2 を経てプロスタグランジン H2（PGH2）を生成するプロスタグランジン合成の律速酵素。血小板に恒常的に発現し、トロンボキサン A2 生合成の主要な酵素源として機能する。有核細胞はアセチル化された COX アイソザイムを数時間以内に再合成できるが、無核の血小板は COX-1 を再合成できないため、アスピリンによる COX-1 の不可逆的アセチル化と酵素不活化は処理された血小板の寿命の間持続する（アスピリン投与ドナー血小板における ex vivo アセチル化取り込みが投与前水準に完全回復するまで血小板回転に並行して 12 日間を要する）。",
+     "en": "Prostaglandin G/H synthase 1, a rate-limiting enzyme converting arachidonic acid to PGH2. Because anucleate platelets cannot resynthesize acetylated COX-1, irreversible inactivation by aspirin persists for the lifespan of the treated platelet (requiring 12 days for ex vivo acetylation uptake to return to full pretreatment levels, paralleling platelet turnover)."
+    },
+    "entityRef": "tgt:uniprot:P23219",
+    "externalIds": {
+     "uniprot": "P23219",
+     "hgncSymbol": "PTGS1",
+     "ncbiGeneId": 5742,
+     "chemblId": "CHEMBL221",
+     "reactomeId": "R-HSA-2162123",
+     "pdbIds": [
+      "6Y3C"
+     ]
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:15037526",
+      "level": "human",
+      "claimType": "measured",
+      "supports": {
+       "ja": "健常者 9 名に低用量アスピリン（100 mg/日、6日間）を経口投与すると、ex vivo の血小板 COX-1 活性指標である全血 TXB2 産生が 99±0.3%（平均±SD）抑制された。",
+       "en": "In 9 healthy subjects, low-dose aspirin (100 mg/d for 6 days) suppressed whole-blood TXB2 production, an index of platelet COX-1 activity ex vivo, by 99 +/- 0.3% (mean +/- SD)."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト全血血小板（健常者 9 名）",
+      "method": "クロスオーバー非盲検試験における全血 TXB2 ラジオイムノアッセイ",
+      "measurement": {
+       "quantity": "platelet_COX1_inhibition",
+       "value": 99,
+       "unit": "%",
+       "sd": 0.3,
+       "conditions": "Oral aspirin 100 mg/day for 6 days in healthy subjects (n=9), measured as ex vivo whole-blood TXB2 suppression"
+      }
+     },
+     {
+      "referenceId": "ref:pmid:1159076",
+      "level": "human",
+      "claimType": "measured",
+      "supports": {
+       "ja": "アスピリン投与ドナーから調製したヒト血小板では、投与後 2 日間は顆粒画分蛋白質への ex vivo [acetyl-3H]アスピリン放射能取り込みが全くみられず、取り込みが投与前の水準に完全回復するまで血小板回転に並行して 12 日間を要した。アスピリンによる顆粒画分蛋白質のアセチル化と血小板機能阻害は恒久的であり、処理された血小板の寿命の間持続する。",
+       "en": "Platelets from aspirin-treated human donors incorporated no [acetyl-3H]aspirin radioactivity into the particulate protein for 2 days after treatment and did not show full pretreatment uptake of radioactivity for 12 days thereafter, paralleling platelet turnover; both acetylation and platelet inhibition persist for the lifespan of the treated platelet."
+      },
+      "species": "Homo sapiens",
+      "system": "アスピリン投与ヒトドナー由来洗浄血小板顆粒画分",
+      "method": "[acetyl-3H]アスピリンと SDS-PAGE を用いた血小板顆粒画分蛋白質への放射能取り込み回復経時測定",
+      "measurement": {
+       "quantity": "time_to_full_pretreatment_acetylation_uptake_recovery",
+       "value": 12,
+       "unit": "d",
+       "conditions": "Time after aspirin treatment for ex vivo [acetyl-3H]aspirin radioactivity uptake into human platelet particulate protein to return to full pretreatment levels, paralleling platelet turnover"
+      }
+     },
+     {
+      "referenceId": "ref:pmid:24605250",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "有核細胞はアセチル化された COX アイソザイムを数時間以内に再合成する能力を持つが、血小板は再合成能を持たないため、1 日 1 回の低用量アスピリンにより血小板 COX-1 の完全かつ持続的な阻害が達成される。",
+       "en": "Nucleated cells have the ability to resynthesize acetylated COX isozymes within a few hours, while platelets do not, enabling complete and persistent platelet COX-1 inhibition with daily low-dose aspirin."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト血小板および有核細胞",
+      "method": "低用量アスピリンの COX-1/COX-2 薬力学に関する薬理学的総説"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "arachidonic-acid",
+    "kind": "endogenous_molecule",
+    "level": "molecular",
+    "label": {
+     "ja": "アラキドン酸（AA）",
+     "en": "Arachidonic acid (AA)"
+    },
+    "description": {
+     "ja": "細胞膜リン脂質から遊離される主要なプロスタノイド前駆体脂肪酸。COX-1/COX-2 の基質となってプロスタグランジン H2（PGH2）へと代謝される。",
+     "en": "Major fatty acid precursor of prostaglandins and thromboxanes, metabolized by cyclooxygenase into PGH2."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:16627914",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "アラキドン酸は主要なプロスタグランジン前駆体であり、COX-1 および COX-2 がプロスタグランジン合成の律速段階を担う。",
+       "en": "Arachidonic acid is the major prostaglandin precursor, and COX-1 and COX-2 catalyze the rate-limiting step in prostaglandin synthesis."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒトエイコサノイド・プロスタグランジン生合成系",
+      "method": "プロスタグランジン・トロンボキサン生合成経路の総説"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "pgh2",
+    "kind": "endogenous_molecule",
+    "level": "molecular",
+    "label": {
+     "ja": "プロスタグランジン H2（PGH2）",
+     "en": "Prostaglandin H2 (PGH2)"
+    },
+    "description": {
+     "ja": "アラキドン酸がシクロオキシゲナーゼ（COX）によって代謝されて生じる不安定なエンドペルオキシド中間体。トロンボキサン A 合成酵素（TBXAS1）の基質となり TXA2 に変換される。",
+     "en": "Unstable prostaglandin endoperoxide intermediate formed from arachidonic acid by COX and converted into TXA2 by thromboxane synthase."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:29180071",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "アラキドン酸はシクロオキシゲナーゼ（COX）により不安定なプロスタグランジン H2（PGH2）に代謝され、さらにトロンボキサン合成酵素（TxAS）により TXA2 に変換される。",
+       "en": "Arachidonic acid is metabolized by COX to form the unstable prostaglandin H2, which is further converted into TXA2 by thromboxane synthase."
+      },
+      "species": "Homo sapiens",
+      "system": "血管および血小板アラキドン酸・トロンボキサン代謝系",
+      "method": "トロンボキサン A2 シグナル伝達経路の総説"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "tbxas1",
+    "kind": "enzyme",
+    "level": "molecular",
+    "label": {
+     "ja": "トロンボキサン A 合成酵素（TBXAS1）",
+     "en": "Thromboxane-A synthase (TBXAS1)"
+    },
+    "description": {
+     "ja": "プロスタグランジン H2（PGH2）からトロンボキサン A2（TXA2）への変換反応を触媒する酵素。血小板で発現し、COX-1 から供給される PGH2 を基質として血小板凝集促進物質 TXA2 を産生する。",
+     "en": "Enzyme that catalyzes the conversion of prostaglandin H2 (PGH2) into thromboxane A2 (TXA2)."
+    },
+    "entityRef": "tgt:uniprot:P24557",
+    "externalIds": {
+     "uniprot": "P24557",
+     "hgncSymbol": "TBXAS1",
+     "ncbiGeneId": 6916,
+     "chemblId": "CHEMBL1835",
+     "reactomeId": "R-HSA-2162123"
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:16627914",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "トロンボキサン合成酵素（TBXAS1）はアラキドン酸およびプロスタグランジン H2 に由来する血管収縮・血小板凝集誘導因子であるトロンボキサン A2（TXA2）の合成を触媒する。",
+       "en": "Thromboxane synthase catalyzes the synthesis of thromboxane A2 (TXA2), which is derived from arachidonic acid and prostaglandin H2 and is a vasoconstrictor and inducer of platelet aggregation."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト血小板および組織トロンボキサン合成系",
+      "method": "シクロオキシゲナーゼおよびトロンボキサン合成酵素に関する総説"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "txa2",
+    "kind": "endogenous_molecule",
+    "level": "molecular",
+    "label": {
+     "ja": "トロンボキサン A2（TXA2）",
+     "en": "Thromboxane A2 (TXA2)"
+    },
+    "description": {
+     "ja": "アラキドン酸経路からトロンボキサン合成酵素により生成される生理活性エイコサノイド。初期血小板活性化を増幅する強力な血小板凝集誘導因子および血管収縮因子として作用する。",
+     "en": "Bioactive eicosanoid metabolite of arachidonic acid that acts as a potent mediator of platelet activation amplification, platelet aggregation, and vasoconstriction."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:15037526",
+      "level": "human",
+      "claimType": "measured",
+      "supports": {
+       "ja": "健常者 9 名への低用量アスピリン（100 mg/日、6日間）投与により、in vivo の全身 TXA2 生合成指標である尿中 11-dehydro-TXB2 排泄量が投与間隔を通じて 78±7%（平均±SD）抑制された。",
+       "en": "Low-dose aspirin (100 mg/d for 6 days) suppressed urinary excretion of 11-dehydro-TXB2, an index of systemic TXA2 biosynthesis in vivo, by 78 +/- 7% (mean +/- SD)."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト全身トロンボキサン生合成（健常者 9 名の尿中代謝物）",
+      "method": "尿中 11-dehydro-TXB2 ラジオイムノアッセイ",
+      "measurement": {
+       "quantity": "systemic_TXA2_biosynthesis_inhibition",
+       "value": 78,
+       "unit": "%",
+       "sd": 7,
+       "conditions": "Oral aspirin 100 mg/day for 6 days in healthy subjects (n=9), measured as urinary 11-dehydro-TXB2 suppression"
+      }
+     },
+     {
+      "referenceId": "ref:pmid:24353037",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "トロンボキサン A2（TXA2）経路は初期血小板活性化プロセスの増幅に大きく寄与し、アスピリンは血小板由来 TXA2 合成を効果的に阻害する。",
+       "en": "The TXA2 pathway is a major contributor to the amplification of the initial platelet activation process, and aspirin effectively inhibits platelet-derived TXA2 synthesis."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト血小板",
+      "method": "抗血小板療法における TXA2 経路標的に関する総説"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "tbxa2r",
+    "kind": "receptor",
+    "level": "molecular",
+    "label": {
+     "ja": "トロンボキサン A2 受容体（TP 受容体 / TBXA2R）",
+     "en": "Thromboxane A2 receptor (TP receptor / TBXA2R)"
+    },
+    "description": {
+     "ja": "血小板や血管平滑筋などの細胞表面に発現する G 蛋白質共役型受容体（血小板では主に TPα アイソフォーム）。TXA2 の結合により活性化され、血小板形態変化・凝集および血管収縮を引き起こす。",
+     "en": "G protein-coupled receptor (predominantly the TPalpha isoform in platelets) activated by TXA2 to mediate platelet activation, aggregation, and vasoconstriction."
+    },
+    "entityRef": "tgt:uniprot:P21731",
+    "externalIds": {
+     "uniprot": "P21731",
+     "hgncSymbol": "TBXA2R",
+     "ncbiGeneId": 6915,
+     "chemblId": "CHEMBL2069",
+     "reactomeId": "R-HSA-428930",
+     "pdbIds": [
+      "6IIU",
+      "6IIV"
+     ]
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:15354262",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "TXA2 は G 蛋白質共役型 TP 受容体（TPα および TPβ の 2 サブタイプがあり、血小板での作用は主に α アイソフォームを介する）を刺激して血小板を活性化し、TP 受容体活性化の阻害は出血時間の延長と血栓塞栓症の抑制をもたらす。",
+       "en": "TXA2 stimulates G protein-coupled TP receptors (predominantly the alpha isoform in platelets), and interference with TP receptor activation results in increased bleeding times and protection from thromboembolism."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト血小板表面 TP 受容体（TPα/TPβ）",
+      "method": "血小板受容体薬理学に関する総説"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "platelet-aggregation",
+    "kind": "pathway",
+    "level": "cellular",
+    "label": {
+     "ja": "血小板の活性化・凝集反応",
+     "en": "Platelet activation and aggregation"
+    },
+    "description": {
+     "ja": "TXA2 による TP 受容体刺激などを介して初期活性化シグナルが増幅され、血小板放出反応・凝集塊形成に至る細胞応答。アスピリンによる TXA2 産生阻害によりこの増幅経路が血小板の寿命の間持続的に抑制される。",
+     "en": "Cellular response in which TXA2 stimulation of TP receptors amplifies initial platelet activation, release reaction, and aggregation."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:1159076",
+      "level": "human",
+      "claimType": "measured",
+      "supports": {
+       "ja": "アスピリンは血小板のプロスタグランジン合成ならびに ADP およびコラーゲン誘発性の血小板放出反応を阻害し、その血小板機能阻害は処理された血小板の寿命の間持続する。",
+       "en": "Aspirin inhibits platelet prostaglandin synthesis and the ADP- and collagen-induced platelet release reaction, and this inhibition persists for the lifespan of the aspirin-treated platelet."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト洗浄血小板",
+      "method": "血小板蛋白質アセチル化と血小板機能阻害の相関解析"
+     },
+     {
+      "referenceId": "ref:pmid:24353037",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "TXA2 経路は TP 受容体を介して初期血小板活性化の増幅に主要な役割を果たし、アスピリンは血小板由来 TXA2 合成を阻害することで抗血小板作用を示す。",
+       "en": "The TXA2 pathway is a major contributor to amplification of initial platelet activation via the TP receptor, which is suppressed by aspirin's inhibition of platelet TXA2 synthesis."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト血小板",
+      "method": "TXA2 経路標的抗血小板療法の総説"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "gastric-mucosal-pg",
+    "kind": "endogenous_molecule",
+    "level": "tissue",
+    "label": {
+     "ja": "胃粘膜防御プロスタグランジン合成",
+     "en": "Gastric mucosal protective prostaglandin synthesis"
+    },
+    "description": {
+     "ja": "上部消化管粘膜において COX により合成され、粘膜防御能（粘液・重炭酸分泌、粘膜血流維持）と傷害後の修復を支える内因性プロスタグランジン。",
+     "en": "Mucosal prostaglandins synthesized by COX in the upper gastrointestinal tract that maintain mucosal defense and injury repair."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:15054499",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "非ステロイド性抗炎症薬（NSAIDs）による上部消化管粘膜の抵抗性・修復能低下の多くは、粘膜プロスタグランジン合成の抑制に起因する。",
+       "en": "NSAIDs impair the ability of the upper GI mucosa to resist and respond to injury, largely attributable to suppression of mucosal prostaglandin synthesis."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト上部消化管粘膜",
+      "method": "NSAID 誘発性消化管粘膜障害・修復機序の総説"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "arterial-thrombus-formation",
+    "kind": "tissue",
+    "level": "organ",
+    "label": {
+     "ja": "動脈血栓形成（冠動脈・脳血管）",
+     "en": "Arterial thrombus formation (coronary and cerebrovascular)"
+    },
+    "description": {
+     "ja": "動脈硬化プラーク破綻部位などにおける血小板凝集を核とした閉塞性動脈血栓の形成。心筋梗塞や虚血性脳卒中の直接的な原因となる。",
+     "en": "Platelet-rich occlusive thrombus formation in coronary and cerebral arteries leading to myocardial infarction and ischemic stroke."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:36189951",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "低用量アスピリンによる血小板シクロオキシゲナーゼ阻害とトロンボキサン A2 生合成抑制は、アテローム血栓症に対する抗血栓療法の基盤となる。",
+       "en": "Low-dose aspirin inhibition of platelet cyclooxygenase and thromboxane A2 biosynthesis represents the cornerstone of antithrombotic therapy against atherothrombosis."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト心血管系・動脈血栓",
+      "method": "アスピリンと血小板研究 50 年の臨床薬理総説"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "antithrombotic-secondary-prevention",
+    "kind": "clinical_effect",
+    "level": "clinical",
+    "label": {
+     "ja": "抗血栓作用（心血管イベント・脳卒中の二次予防）",
+     "en": "Antithrombotic effect (secondary prevention of cardiovascular events)"
+    },
+    "description": {
+     "ja": "既存の閉塞性血管疾患（心筋梗塞・脳卒中・一過性脳虚血発作など）を有する患者において、重篤な血管イベント（非致死性心筋梗塞、脳卒中、血管死）、冠動脈イベントおよび総脳卒中の発生率を有意に低下させる臨床効果。",
+     "en": "Significant reduction in serious vascular events (myocardial infarction, stroke, or vascular death), coronary events, and total stroke in patients with established occlusive vascular disease."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:19482214",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "二次予防ランダム化比較試験 16 件（17,000 例、43,000 人年）の個人データメタ解析において、アスピリン割り付け群は対照群と比較して重篤な血管イベントを年間 6.7% 対 8.2%（p<0.0001）へ有意に減少させ、総脳卒中（年間 2.08% 対 2.54%、p=0.002）および冠動脈イベント（年間 4.3% 対 5.3%、p<0.0001）をそれぞれ約 5 分の 1 減少させた。",
+       "en": "In 16 secondary prevention trials (17,000 individuals), aspirin reduced serious vascular events (6.7% vs 8.2% per year, p<0.0001), total stroke (2.08% vs 2.54% per year, p=0.002), and coronary events (4.3% vs 5.3% per year, p<0.0001)."
+      },
+      "species": "Homo sapiens",
+      "system": "閉塞性血管疾患既往患者（二次予防 16 試験・17,000 例、43,000 人年）",
+      "method": "ランダム化比較試験の個人参加者データ（IPD）メタ解析（Intention-to-treat 解析）",
+      "measurement": {
+       "quantity": "annual_serious_vascular_event_rate",
+       "value": 6.7,
+       "unit": "%/yr",
+       "conditions": "Secondary prevention trials (16 RCTs, n=17,000), aspirin group vs 8.2%/yr in control group (p<0.0001)"
+      }
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "gastrointestinal-mucosal-injury",
+    "kind": "adverse_effect",
+    "level": "clinical",
+    "label": {
+     "ja": "上部消化管粘膜障害・潰瘍リスク",
+     "en": "Upper gastrointestinal mucosal injury and ulcer risk"
+    },
+    "description": {
+     "ja": "胃・十二指腸粘膜における COX-1 由来の保護的プロスタグランジン合成が抑制されることにより、粘膜防御機構および潰瘍修復が損なわれ、びらん・潰瘍が生じる副作用。",
+     "en": "Upper GI mucosal damage and impaired ulcer healing resulting from suppression of mucosal prostaglandin synthesis."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:15054499",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "アスピリンを含む NSAIDs は粘膜プロスタグランジン合成を抑制することで上部消化管粘膜の傷害抵抗性と潰瘍治癒能を損ない、消化管粘膜障害を引き起こす。",
+       "en": "NSAIDs cause damage in the upper gastrointestinal tract and impair mucosal defense by suppressing mucosal prostaglandin synthesis."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト上部消化管粘膜",
+      "method": "NSAID 誘発性消化管粘膜障害機序の総説"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "major-bleeding-risk",
+    "kind": "adverse_effect",
+    "level": "clinical",
+    "label": {
+     "ja": "重大な出血リスク増加（消化管出血・頭蓋外出血）",
+     "en": "Increased major bleeding risk (gastrointestinal and extracranial bleeding)"
+    },
+    "description": {
+     "ja": "持続的な血小板凝集抑制作用と胃粘膜プロスタグランジン低下による粘膜障害が重なることで、重大な消化管出血および頭蓋外出血の発生頻度が有意に増加する副作用。",
+     "en": "Increased incidence of major gastrointestinal and extracranial bleeding resulting from combined antiplatelet action and gastric mucosal injury."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:19482214",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "一次予防ランダム化比較試験 6 件（95,000 例）のメタ解析において、アスピリン割り付け群では重大な消化管および頭蓋外出血が年間 0.10% 対 0.07%（p<0.0001）と有意に増加した。",
+       "en": "In primary prevention trials, aspirin allocation significantly increased major gastrointestinal and extracranial bleeds (0.10% vs 0.07% per year, p<0.0001)."
+      },
+      "species": "Homo sapiens",
+      "system": "一次予防ランダム化比較試験参加者（6 試験・95,000 例、660,000 人年）",
+      "method": "ランダム化比較試験の個人参加者データ（IPD）メタ解析",
+      "measurement": {
+       "quantity": "annual_major_GI_and_extracranial_bleed_rate",
+       "value": 0.1,
+       "unit": "%/yr",
+       "conditions": "Primary prevention trials (6 RCTs, n=95,000), aspirin group vs 0.07%/yr in control group (p<0.0001)"
+      }
+     }
+    ],
+    "status": "candidate"
+   }
+  ],
+  "edges": [
+   {
+    "id": "edge:aspirin-hydrolyzed-to-salicylic-acid",
+    "source": "aspirin",
+    "target": "salicylic-acid",
+    "kind": "metabolized_to",
+    "effect": "positive",
+    "mode": {
+     "ja": "肝臓・胃の非特異的エステラーゼによる急速な加水分解（血清半減期約 20 分）",
+     "en": "Rapid hydrolysis by nonspecific esterases in the liver and stomach (serum t1/2 ~20 min)"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "tissue": "Liver, stomach, and plasma"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:3888490",
+      "level": "human",
+      "claimType": "measured",
+      "supports": {
+       "ja": "アスピリンは肝臓および胃の非特異的エステラーゼによりサリチル酸へ加水分解され、投与量の 68% が未変化体として全身循環に到達し、血清半減期約 20 分で消失するのに伴いサリチル酸濃度が急速に上昇する。",
+       "en": "Hydrolysis of aspirin to salicylic acid by nonspecific esterases occurs in the liver and stomach so that 68% reaches the systemic circulation as aspirin, with an aspirin serum half-life of approximately 20 minutes."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト胃・肝臓および全身循環血漿",
+      "method": "経口アスピリン投与時の臨床薬物動態解析",
+      "measurement": {
+       "quantity": "bioavailability",
+       "value": 68,
+       "unit": "%",
+       "conditions": "Fraction of oral dose reaching systemic circulation as intact aspirin in humans"
+      }
+     }
+    ],
+    "step": 1,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:aspirin-triggers-cox1-acetylation",
+    "source": "aspirin",
+    "target": "cox1-acetylation",
+    "kind": "leads_to",
+    "effect": "positive",
+    "mode": {
+     "ja": "COX-1（PGHS-1）活性部位チャネル内の Ser530 へのアセチル基転移",
+     "en": "Transfer of the acetyl group to Ser530 within the COX-1 active-site channel"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "cellType": "Platelet",
+     "conditions": "Presystemic and systemic circulation exposure"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:7552725",
+      "level": "in_vitro",
+      "claimType": "measured",
+      "supports": {
+       "ja": "アスピリンはプロスタグランジン H2 合成酵素 1（PGHS-1）の Ser530 を選択的にアセチル化する。",
+       "en": "Aspirin selectively acetylates serine 530 on prostaglandin H2 synthase 1."
+      },
+      "species": "Ovis aries",
+      "system": "精製ヒツジ精嚢プロスタグランジン H2 合成酵素 1（PGHS-1）結晶 (PDB: 1PTH)",
+      "method": "3.4 Å 分解能 X 線結晶構造解析"
+     },
+     {
+      "referenceId": "ref:pmid:1159076",
+      "level": "human",
+      "claimType": "measured",
+      "supports": {
+       "ja": "ヒト洗浄血小板を [acetyl-3H]アスピリンと 37℃でインキュベートすると、顆粒画分の分子量約 85,000 の蛋白質（シクロオキシゲナーゼ）のアセチル化はアスピリン濃度 30 μM で飽和し 20 分以内に完了した。",
+       "en": "In washed human platelets at 37 degrees C, acetylation of the ~85,000 MW particulate fraction protein by aspirin saturated at 30 uM and was complete within 20 min."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト洗浄血小板懸濁液（顆粒画分蛋白質）",
+      "method": "[acetyl-3H]アスピリン（37℃、20分）標識および SDS-PAGE による放射能取り込み測定",
+      "measurement": {
+       "quantity": "saturating_concentration",
+       "value": 30,
+       "unit": "uM",
+       "conditions": "Washed human platelets incubated at 37 degrees C for 20 min"
+      }
+     }
+    ],
+    "step": 1,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:acetylation-inhibits-ptgs1",
+    "source": "cox1-acetylation",
+    "target": "ptgs1",
+    "kind": "inhibits",
+    "effect": "negative",
+    "mode": {
+     "ja": "アセチル化 Ser530 側鎖による COX-1 活性部位チャネルの不可逆的・立体的遮断（無核の血小板は COX-1 を再合成できないため、阻害が血小板の寿命の間持続する）",
+     "en": "Irreversible steric blockage of the COX-1 active-site channel by the acetyl-Ser530 side chain; because anucleate platelets cannot resynthesize COX-1, inhibition persists for the lifespan of the platelet"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "cellType": "血小板 (Platelet)"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:7552725",
+      "level": "in_vitro",
+      "claimType": "measured",
+      "supports": {
+       "ja": "Ser530 のアセチル化は活性部位チャネルを立体的に遮断することで PGHS-1（COX-1）のシクロオキシゲナーゼ活性を消失させる。",
+       "en": "Acetylation of Ser530 abolishes cyclooxygenase activity by steric blockage of the active-site channel."
+      },
+      "species": "Ovis aries",
+      "system": "精製ヒツジ精嚢プロスタグランジン H2 合成酵素 1（PGHS-1）結晶 (PDB: 1PTH)",
+      "method": "3.4 Å 分解能 X 線結晶構造解析"
+     },
+     {
+      "referenceId": "ref:pmid:15037526",
+      "level": "human",
+      "claimType": "measured",
+      "supports": {
+       "ja": "健常者への低用量アスピリン（100 mg/日）投与は血小板 COX-1 活性（全血 TXB2 産生）を 99±0.3% 阻害した。",
+       "en": "Low-dose aspirin (100 mg/day) inhibited platelet COX-1 activity (whole-blood TXB2 production) by 99 +/- 0.3% in healthy subjects."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト全血血小板（健常者 9 名）",
+      "method": "ex vivo 全血 TXB2 ラジオイムノアッセイ"
+     },
+     {
+      "referenceId": "ref:pmid:1159076",
+      "level": "human",
+      "claimType": "measured",
+      "supports": {
+       "ja": "アスピリンによるヒト血小板顆粒画分蛋白質のアセチル化と血小板機能阻害はいずれも恒久的であり、処理された血小板の寿命の間持続し、ex vivo アセチル化取り込みが投与前水準に完全回復するまで血小板回転に並行して 12 日間を要した。",
+       "en": "Acetylation of the human platelet particulate protein and inhibition of platelet function by aspirin are permanent and persist for the lifespan of the treated platelet, requiring 12 days for full recovery of pretreatment radioactivity uptake paralleling platelet turnover."
+      },
+      "species": "Homo sapiens",
+      "system": "アスピリン投与ヒトドナー由来洗浄血小板",
+      "method": "[acetyl-3H]アスピリン取り込みと血小板放出反応の経時測定"
+     },
+     {
+      "referenceId": "ref:pmid:24605250",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "有核細胞は数時間以内にアセチル化 COX アイソザイムを再合成できるのに対し、血小板は再合成能を持たないため、低用量アスピリンによる血小板 COX-1 阻害は完全かつ持続的に維持される。",
+       "en": "Unlike nucleated cells that resynthesize acetylated COX isozymes within a few hours, platelets cannot resynthesize COX-1, resulting in complete and persistent platelet COX-1 inhibition."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト血小板",
+      "method": "低用量アスピリンの臨床薬理学的総説"
+     }
+    ],
+    "step": 2,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:arachidonic-acid-to-pgh2",
+    "source": "arachidonic-acid",
+    "target": "pgh2",
+    "kind": "converts_to",
+    "effect": "positive",
+    "mode": {
+     "ja": "COX-1 による酸素添加・環化およびペルオキシダーゼ反応",
+     "en": "COX-1-mediated bis-oxygenation and reduction of arachidonic acid to PGH2"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "cellType": "Platelet"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:29180071",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "アラキドン酸はシクロオキシゲナーゼ（COX）によって不安定なプロスタグランジン H2（PGH2）へと代謝される。",
+       "en": "Arachidonic acid is metabolized by cyclooxygenase (COX) to form the unstable prostaglandin H2."
+      },
+      "species": "Homo sapiens",
+      "system": "血小板および血管内皮アラキドン酸代謝系",
+      "method": "アラキドン酸・TXA2 経路の総説"
+     }
+    ],
+    "step": 3,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:ptgs1-catalyzes-pgh2",
+    "source": "ptgs1",
+    "target": "pgh2",
+    "kind": "catalyzes",
+    "effect": "positive",
+    "mode": {
+     "ja": "アラキドン酸から PGH2 への変換を触媒（アスピリンによる COX-1 阻害で PGH2 生成が停止）",
+     "en": "Catalyzes conversion of arachidonic acid to PGH2 (blocked when COX-1 is acetylated by aspirin)"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "cellType": "Platelet"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:810797",
+      "level": "in_vitro",
+      "claimType": "measured",
+      "supports": {
+       "ja": "プロスタグランジン合成酵素（シクロオキシゲナーゼ）はアラキドン酸を基質としてプロスタグランジン生成反応を触媒し、アスピリンによる活性部位アセチル化によりこの変換が阻害される。",
+       "en": "Prostaglandin synthase (cyclo-oxygenase) converts arachidonic acid to prostaglandins and is inhibited by active-site acetylation by aspirin."
+      },
+      "species": "Ovis aries, Bos taurus",
+      "system": "ヒツジおよびウシ精嚢ミクロソーム画分",
+      "method": "アラキドン酸基質競合および [acetyl-3H]アスピリン標識による酵素活性測定"
+     }
+    ],
+    "step": 3,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:pgh2-converted-to-txa2",
+    "source": "pgh2",
+    "target": "txa2",
+    "kind": "converts_to",
+    "effect": "positive",
+    "mode": {
+     "ja": "トロンボキサン A 合成酵素（TBXAS1）による PGH2 から TXA2 への変換（上流の PGH2 枯渇により TXA2 産生が低下）",
+     "en": "Conversion of PGH2 into TXA2 by thromboxane synthase (reduced when upstream PGH2 supply is blocked)"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "cellType": "Platelet"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:29180071",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "COX により生成された不安定なプロスタグランジン H2（PGH2）は、さらにトロンボキサン合成酵素によってトロンボキサン A2（TXA2）へと変換される。",
+       "en": "Unstable prostaglandin H2 formed by COX is further converted into TXA2 by thromboxane synthase."
+      },
+      "species": "Homo sapiens",
+      "system": "血小板および血管トロンボキサン合成系",
+      "method": "TXA2 シグナル伝達経路の総説"
+     }
+    ],
+    "step": 4,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:tbxas1-catalyzes-txa2",
+    "source": "tbxas1",
+    "target": "txa2",
+    "kind": "catalyzes",
+    "effect": "positive",
+    "mode": {
+     "ja": "PGH2 を基質とした TXA2 生合成の触媒",
+     "en": "Catalysis of TXA2 biosynthesis from PGH2"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "cellType": "Platelet"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:16627914",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "トロンボキサン合成酵素（TBXAS1）はプロスタグランジン H2 からのトロンボキサン A2（TXA2）合成を触媒する。",
+       "en": "Thromboxane synthase catalyzes the synthesis of thromboxane A2 from prostaglandin H2."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒトトロンボキサン合成酵素経路",
+      "method": "プロスタノイド生合成酵素に関する総説"
+     }
+    ],
+    "step": 4,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:txa2-activates-tbxa2r",
+    "source": "txa2",
+    "target": "tbxa2r",
+    "kind": "activates",
+    "effect": "positive",
+    "mode": {
+     "ja": "血小板表面の G 蛋白質共役型 TP 受容体（主に TPα アイソフォーム）への結合と刺激（TXA2 産生低下により受容体刺激が低下）",
+     "en": "Binding and activation of platelet G protein-coupled TP receptors (reduced when TXA2 synthesis is suppressed)"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "cellType": "Platelet"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:15354262",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "TXA2 は血小板表面の G 蛋白質共役型 TP 受容体（主に TPα アイソフォーム）を刺激して作用を発現する。",
+       "en": "TXA2 stimulates G protein-coupled TP receptors (predominantly the TPalpha isoform in platelets) on the platelet surface."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト血小板表面 TP 受容体",
+      "method": "血小板受容体薬理の総説"
+     }
+    ],
+    "step": 5,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:tbxa2r-drives-platelet-aggregation",
+    "source": "tbxa2r",
+    "target": "platelet-aggregation",
+    "kind": "activates",
+    "effect": "positive",
+    "mode": {
+     "ja": "TP 受容体シグナルによる初期血小板活性化の増幅と血小板凝集の誘導（TP 受容体刺激低下により血小板凝集が低下）",
+     "en": "Amplification of initial platelet activation and induction of platelet aggregation via TP receptor signaling"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "cellType": "Platelet"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:24353037",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "TXA2 は TP 受容体を介して初期血小板活性化プロセスを増幅し、アスピリンによる TXA2 合成阻害はこの血小板活性化・凝集を抑制する。",
+       "en": "TXA2 mediates amplification of initial platelet activation through the TP receptor, and aspirin inhibits platelet-derived TXA2 synthesis."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト血小板",
+      "method": "抗血小板療法における TXA2 経路の総説"
+     },
+     {
+      "referenceId": "ref:pmid:15354262",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "TXA2 による TP 受容体活性化は血小板凝集に寄与し、その阻害は血栓塞栓症からの保護と出血時間の延長をもたらす。",
+       "en": "TP receptor activation by TXA2 mediates platelet activation and aggregation, and interference with this activation protects against thromboembolism and prolongs bleeding time."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト血小板",
+      "method": "血小板受容体シグナル伝達の総説"
+     }
+    ],
+    "step": 6,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:platelet-aggregation-leads-to-arterial-thrombus",
+    "source": "platelet-aggregation",
+    "target": "arterial-thrombus-formation",
+    "kind": "leads_to",
+    "effect": "positive",
+    "mode": {
+     "ja": "血小板活性化・凝集による閉塞性動脈血栓の形成（血小板凝集低下により血栓形成が抑制される）",
+     "en": "Formation of occlusive arterial thrombi driven by platelet activation and aggregation"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "tissue": "Coronary and cerebral arteries"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:15354262",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "血小板の活性化および凝集は生体内の血栓形成に中心的な役割を果たし、TP 受容体経路の阻害は血栓塞栓症に対する保護効果をもたらす。",
+       "en": "Platelet activation and aggregation play a key role in thrombus formation in vivo, and interference with TP receptor activation provides protection from thromboembolism."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト動脈血栓形成系",
+      "method": "血小板受容体と血栓形成に関する総説"
+     }
+    ],
+    "step": 7,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:thrombus-suppression-leads-to-secondary-prevention",
+    "source": "arterial-thrombus-formation",
+    "target": "antithrombotic-secondary-prevention",
+    "kind": "leads_to",
+    "effect": "negative",
+    "mode": {
+     "ja": "動脈血栓形成の抑制により、心筋梗塞・脳卒中・血管死の二次予防効果を発揮",
+     "en": "Suppression of arterial thrombus formation reduces serious vascular events in secondary prevention"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "conditions": "Secondary prevention in patients with occlusive vascular disease"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:19482214",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "既存の閉塞性血管疾患患者における二次予防試験では、長期アスピリン投与により重篤な血管イベント（年間 6.7% 対 8.2%）、総脳卒中（年間 2.08% 対 2.54%）および冠動脈イベント（年間 4.3% 対 5.3%）が有意に減少した。",
+       "en": "In secondary prevention trials in patients with occlusive vascular disease, long-term aspirin significantly reduced serious vascular events, total stroke, and coronary events."
+      },
+      "species": "Homo sapiens",
+      "system": "閉塞性血管疾患既往患者（二次予防 16 試験・17,000 例）",
+      "method": "ランダム化比較試験の個人参加者データメタ解析"
+     }
+    ],
+    "step": 8,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:ptgs1-produces-gastric-mucosal-pg",
+    "source": "ptgs1",
+    "target": "gastric-mucosal-pg",
+    "kind": "produces",
+    "effect": "positive",
+    "mode": {
+     "ja": "胃・上部消化管粘膜における保護的プロスタグランジン合成（アスピリンによる COX 阻害で粘膜プロスタグランジンが低下）",
+     "en": "Synthesis of protective prostaglandins in gastric mucosa (suppressed when COX is inhibited by aspirin)"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "tissue": "Upper gastrointestinal mucosa"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:15054499",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "非選択的 NSAIDs（アスピリンを含む）はシクロオキシゲナーゼ阻害を介して上部消化管粘膜のプロスタグランジン合成を抑制する。",
+       "en": "Conventional NSAIDs suppress upper gastrointestinal mucosal prostaglandin synthesis via cyclooxygenase inhibition."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト上部消化管粘膜",
+      "method": "NSAID 誘発性消化管粘膜障害の機序総説"
+     }
+    ],
+    "step": 5,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:gastric-pg-protects-against-mucosal-injury",
+    "source": "gastric-mucosal-pg",
+    "target": "gastrointestinal-mucosal-injury",
+    "kind": "decreases",
+    "effect": "negative",
+    "mode": {
+     "ja": "粘膜プロスタグランジンによる粘膜防御能維持（プロスタグランジン低下により上部消化管粘膜障害・潰瘍リスクが増加）",
+     "en": "Mucosal prostaglandins maintain mucosal resistance to injury; their suppression leads to upper GI mucosal damage"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "tissue": "Upper gastrointestinal tract"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:15054499",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "粘膜プロスタグランジン合成の抑制により上部消化管粘膜が傷害に抵抗・修復する能力が損なわれ、上部消化管障害が生じる。",
+       "en": "Suppression of mucosal prostaglandin synthesis impairs the ability of the upper GI mucosa to resist and respond to injury, causing GI damage."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト上部消化管粘膜",
+      "method": "NSAID 誘発性消化管障害・潰瘍治癒の総説"
+     }
+    ],
+    "step": 7,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:mucosal-injury-increases-bleeding-risk",
+    "source": "gastrointestinal-mucosal-injury",
+    "target": "major-bleeding-risk",
+    "kind": "increases",
+    "effect": "positive",
+    "mode": {
+     "ja": "上部消化管粘膜障害が消化管出血の基盤となる",
+     "en": "Upper gastrointestinal mucosal injury predisposes to major gastrointestinal bleeding"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "tissue": "Upper gastrointestinal tract"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:19482214",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "長期アスピリン投与により重大な消化管出血および頭蓋外出血が有意に増加する（一次予防試験で年間 0.10% 対 0.07%、p<0.0001）。",
+       "en": "Long-term aspirin allocation significantly increases major gastrointestinal and extracranial bleeds (0.10% vs 0.07% per year, p<0.0001)."
+      },
+      "species": "Homo sapiens",
+      "system": "アスピリン臨床試験参加患者（上部消化管および頭蓋外血管）",
+      "method": "ランダム化比較試験の個人参加者データメタ解析"
+     }
+    ],
+    "step": 8,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:aggregation-suppression-increases-bleeding-risk",
+    "source": "platelet-aggregation",
+    "target": "major-bleeding-risk",
+    "kind": "decreases",
+    "effect": "negative",
+    "mode": {
+     "ja": "正常な血小板凝集は一次止血を担い、その持続的抑制により出血時間が延長し重大な出血リスクが増加する",
+     "en": "Platelet aggregation supports primary hemostasis; its suppression prolongs bleeding time and increases major bleeding risk"
+    },
+    "context": {
+     "species": "Homo sapiens"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:15354262",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "TP 受容体を介した血小板活性化の阻害は出血時間の延長をもたらす。",
+       "en": "Interference with activation of platelet TP receptors results in increased bleeding times."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト血小板および一次止血系",
+      "method": "血小板受容体薬理の総説"
+     },
+     {
+      "referenceId": "ref:pmid:19482214",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "抗血小板量の長期アスピリン投与は重大な消化管出血および頭蓋外出血リスクを有意に増加させる。",
+       "en": "Long-term antiplatelet aspirin allocation significantly increases major gastrointestinal and extracranial bleeding risk."
+      },
+      "species": "Homo sapiens",
+      "system": "ランダム化比較試験参加患者",
+      "method": "ランダム化比較試験の個人参加者データメタ解析"
+     }
+    ],
+    "step": 8,
+    "status": "candidate"
+   }
+  ],
+  "status": "candidate",
+  "revision": 2,
+  "updatedAt": "2026-11-22T15:30:00+09:00"
+ },
+ "references": [
+  {
+   "id": "ref:pmid:810797",
+   "kind": "original_article",
+   "title": "Acetylation of prostaglandin synthase by aspirin.",
+   "authors": [
+    "Roth GJ",
+    "Stanford N",
+    "Majerus PW"
+   ],
+   "year": 1975,
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "pmid": "810797",
+   "doi": "10.1073/pnas.72.8.3073",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/810797/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:1159076",
+   "kind": "original_article",
+   "title": "The mechanism of the effect of aspirin on human platelets. I. Acetylation of a particulate fraction protein.",
+   "authors": [
+    "Roth GJ",
+    "Majerus PW"
+   ],
+   "year": 1975,
+   "journal": "The Journal of clinical investigation",
+   "pmid": "1159076",
+   "doi": "10.1172/JCI108132",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1159076/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:7552725",
+   "kind": "original_article",
+   "title": "The structural basis of aspirin activity inferred from the crystal structure of inactivated prostaglandin H2 synthase.",
+   "authors": [
+    "Loll PJ",
+    "Picot D",
+    "Garavito RM"
+   ],
+   "year": 1995,
+   "journal": "Nature structural biology",
+   "pmid": "7552725",
+   "doi": "10.1038/nsb0895-637",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7552725/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:15037526",
+   "kind": "original_article",
+   "title": "Clinical pharmacology of platelet, monocyte, and vascular cyclooxygenase inhibition by naproxen and low-dose aspirin in healthy subjects.",
+   "authors": [
+    "Capone ML",
+    "Tacconelli S",
+    "Sciulli MG",
+    "Grana M",
+    "Ricciotti E",
+    "Minuz P",
+    "Di Gregorio P",
+    "Merciaro G",
+    "Patrono C",
+    "Patrignani P"
+   ],
+   "year": 2004,
+   "journal": "Circulation",
+   "pmid": "15037526",
+   "doi": "10.1161/01.CIR.0000124715.27937.78",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15037526/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:24605250",
+   "kind": "review",
+   "title": "Aspirin, cyclooxygenase inhibition and colorectal cancer.",
+   "authors": [
+    "Sostres C",
+    "Gargallo CJ",
+    "Lanas A"
+   ],
+   "year": 2014,
+   "journal": "World journal of gastrointestinal pharmacology and therapeutics",
+   "pmid": "24605250",
+   "doi": "10.4292/wjgpt.v5.i1.40",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24605250/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:16627914",
+   "kind": "review",
+   "title": "Cyclooxygenase-2 and thromboxane synthase in non-endocrine and endocrine tumors: a review.",
+   "authors": [
+    "Onguru O",
+    "Casey MB",
+    "Kajita S",
+    "Nakamura N",
+    "Lloyd RV"
+   ],
+   "year": 2005,
+   "journal": "Endocrine pathology",
+   "pmid": "16627914",
+   "doi": "10.1385/ep:16:4:253",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16627914/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:29180071",
+   "kind": "review",
+   "title": "Role of thromboxane A(2) signaling in endothelium-dependent contractions of arteries.",
+   "authors": [
+    "Chen H"
+   ],
+   "year": 2018,
+   "journal": "Prostaglandins & other lipid mediators",
+   "pmid": "29180071",
+   "doi": "10.1016/j.prostaglandins.2017.11.004",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29180071/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:15354262",
+   "kind": "review",
+   "title": "Platelet receptors for adenine nucleotides and thromboxane A2.",
+   "authors": [
+    "Murugappan S",
+    "Shankar H",
+    "Kunapuli SP"
+   ],
+   "year": 2004,
+   "journal": "Seminars in thrombosis and hemostasis",
+   "pmid": "15354262",
+   "doi": "10.1055/s-2004-833476",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15354262/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:24353037",
+   "kind": "review",
+   "title": "Antiplatelet therapy: targeting the TxA2 pathway.",
+   "authors": [
+    "Fontana P",
+    "Zufferey A",
+    "Daali Y",
+    "Reny JL"
+   ],
+   "year": 2014,
+   "journal": "Journal of cardiovascular translational research",
+   "pmid": "24353037",
+   "doi": "10.1007/s12265-013-9529-1",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24353037/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:3888490",
+   "kind": "review",
+   "title": "Clinical pharmacokinetics of the salicylates.",
+   "authors": [
+    "Needs CJ",
+    "Brooks PM"
+   ],
+   "year": 1985,
+   "journal": "Clinical pharmacokinetics",
+   "pmid": "3888490",
+   "doi": "10.2165/00003088-198510020-00004",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3888490/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:15054499",
+   "kind": "review",
+   "title": "Mechanisms of nonsteroidal anti-inflammatory drug-induced gastrointestinal injury and repair: a window of opportunity for cyclooxygenase-inhibiting nitric oxide donors.",
+   "authors": [
+    "Perini R",
+    "Fiorucci S",
+    "Wallace JL"
+   ],
+   "year": 2004,
+   "journal": "Canadian journal of gastroenterology = Journal canadien de gastroenterologie",
+   "pmid": "15054499",
+   "doi": "10.1155/2004/890585",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15054499/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:19482214",
+   "kind": "original_article",
+   "title": "Aspirin in the primary and secondary prevention of vascular disease: collaborative meta-analysis of individual participant data from randomised trials.",
+   "authors": [
+    "Antithrombotic Trialists' (ATT) Collaboration",
+    "Baigent C",
+    "Blackwell L",
+    "Collins R",
+    "Emberson J",
+    "Godwin J",
+    "Peto R",
+    "Buring J",
+    "Hennekens C",
+    "Kearney P",
+    "Meade T",
+    "Patrono C",
+    "Roncaglioni MC",
+    "Zanchetti A"
+   ],
+   "year": 2009,
+   "journal": "Lancet (London, England)",
+   "pmid": "19482214",
+   "doi": "10.1016/S0140-6736(09)60503-1",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19482214/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:36189951",
+   "kind": "review",
+   "title": "Fifty years with aspirin and platelets.",
+   "authors": [
+    "Patrono C"
+   ],
+   "year": 2023,
+   "journal": "British journal of pharmacology",
+   "pmid": "36189951",
+   "doi": "10.1111/bph.15966",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36189951/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:label:kegg-japic:00047330",
+   "kind": "label",
+   "title": "KEGG MEDICUS / JAPIC 医療用医薬品添付文書: バイアスピリン錠100mg (YJ: 3399007H1021)",
+   "year": 2026,
+   "url": "https://www.kegg.jp/medicus-bin/japic_med?japic_code=00047330",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "label-page"
+  },
+  {
+   "id": "ref:label:kegg-japic:00057833",
+   "kind": "label",
+   "title": "KEGG MEDICUS / JAPIC 医療用医薬品添付文書: バッサミン配合錠A81 (YJ: 3399100F1108)",
+   "year": 2026,
+   "url": "https://www.kegg.jp/medicus-bin/japic_med?japic_code=00057833",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "label-page"
+  },
+  {
+   "id": "ref:label:dailymed:1b2e6566-cb7c-7a7d-e063-6394a90af97c",
+   "kind": "label",
+   "title": "DailyMed SPL: ASPIRIN 81MG ADULT LOW DOSE (ASPIRIN) TABLET, DELAYED RELEASE",
+   "year": 2026,
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1b2e6566-cb7c-7a7d-e063-6394a90af97c",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "label-page"
+  },
+  {
+   "id": "ref:db:pubchem:2244",
+   "kind": "database",
+   "title": "PubChem Compound Summary for CID 2244 (Aspirin)",
+   "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2244",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  },
+  {
+   "id": "ref:db:pubchem:338",
+   "kind": "database",
+   "title": "PubChem Compound Summary for CID 338 (Salicylic Acid)",
+   "url": "https://pubchem.ncbi.nlm.nih.gov/compound/338",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  },
+  {
+   "id": "ref:db:chembl:CHEMBL25",
+   "kind": "database",
+   "title": "ChEMBL Compound Report Card for CHEMBL25 (ASPIRIN)",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL25/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  },
+  {
+   "id": "ref:db:chembl:CHEMBL424",
+   "kind": "database",
+   "title": "ChEMBL Compound Report Card for CHEMBL424 (SALICYLIC ACID)",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL424/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  },
+  {
+   "id": "ref:db:kegg:D00109",
+   "kind": "database",
+   "title": "KEGG DRUG Entry D00109: Aspirin (JP19/USP)",
+   "url": "https://rest.kegg.jp/get/dr:D00109",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  },
+  {
+   "id": "ref:db:kegg:D03960",
+   "kind": "database",
+   "title": "KEGG DRUG Entry D03960: Aspirin and dialuminate; Bufferin (TN)",
+   "url": "https://rest.kegg.jp/get/dr:D03960",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  },
+  {
+   "id": "ref:db:uniprot:P23219",
+   "kind": "database",
+   "title": "UniProtKB Entry P23219 (PGH1_HUMAN): Prostaglandin G/H synthase 1 (PTGS1)",
+   "url": "https://www.uniprot.org/uniprotkb/P23219",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  },
+  {
+   "id": "ref:db:uniprot:P24557",
+   "kind": "database",
+   "title": "UniProtKB Entry P24557 (THAS_HUMAN): Thromboxane-A synthase (TBXAS1)",
+   "url": "https://www.uniprot.org/uniprotkb/P24557",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  },
+  {
+   "id": "ref:db:uniprot:P21731",
+   "kind": "database",
+   "title": "UniProtKB Entry P21731 (TA2R_HUMAN): Thromboxane A2 receptor (TBXA2R)",
+   "url": "https://www.uniprot.org/uniprotkb/P21731",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  }
+ ]
+}

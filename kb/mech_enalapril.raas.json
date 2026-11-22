@@ -1,0 +1,2097 @@
+{
+ "id": "mech:enalapril.raas",
+ "title": "エナラプリルの RAAS・キニン系作用機序（肝 CES1 による活性化と ACE 阻害）",
+ "drug": "エナラプリル（製剤としてはエナラプリルマレイン酸塩）",
+ "drugId": "drug:enalapril",
+ "brandNames": [
+  "レニベース",
+  "Vasotec",
+  "Epaned"
+ ],
+ "status": "candidate",
+ "statusJa": "未レビュー（AI作成・出典確認済み）",
+ "summary": "経口プロドラッグであるエナラプリルは消化管から 60〜70% 吸収された後、肝カルボキシルエステラーゼ 1（CES1）によるエステル加水分解を受けて活性ジアシッド体エナラプリラートに変換される。エナラプリラートはアンジオテンシン変換酵素（ACE / キニナーゼ II, P12821）を強力かつ競合的に阻害し、アンジオテンシン I からアンジオテンシン II への変換を抑制して AT1 受容体（AGTR1）刺激を低下させる。これにより血管平滑筋収縮および副腎アルドステロン分泌が低下し、血圧低下と慢性心不全の予後改善をもたらす。一方、アルドステロン低下による高カリウム血症、腎輸出細動脈拡張による腎灌流圧低下時の糸球体濾過量（GFR）低下・血清クレアチニン上昇（高窒素血症）、およびキニナーゼ II 阻害によるブラジキニン分解低下・蓄積が関与する乾性咳嗽や血管浮腫の機序を併せ持つ。",
+ "html": "https://sojiro-o.github.io/pharma-atlas-web/kb/mech_enalapril.raas.html",
+ "json": "https://sojiro-o.github.io/pharma-atlas-web/kb/mech_enalapril.raas.json",
+ "viewer": "https://sojiro-o.github.io/pharma-atlas-web/#/mechanism/mech%3Aenalapril.raas",
+ "map": {
+  "id": "mech:enalapril.raas",
+  "drugId": "drug:enalapril",
+  "title": {
+   "ja": "エナラプリルの RAAS・キニン系作用機序（肝 CES1 による活性化と ACE 阻害）",
+   "en": "Mechanism of action of enalapril on the RAAS and kinin system (hepatic CES1 activation and ACE inhibition)"
+  },
+  "summary": {
+   "ja": "経口プロドラッグであるエナラプリルは消化管から 60〜70% 吸収された後、肝カルボキシルエステラーゼ 1（CES1）によるエステル加水分解を受けて活性ジアシッド体エナラプリラートに変換される。エナラプリラートはアンジオテンシン変換酵素（ACE / キニナーゼ II, P12821）を強力かつ競合的に阻害し、アンジオテンシン I からアンジオテンシン II への変換を抑制して AT1 受容体（AGTR1）刺激を低下させる。これにより血管平滑筋収縮および副腎アルドステロン分泌が低下し、血圧低下と慢性心不全の予後改善をもたらす。一方、アルドステロン低下による高カリウム血症、腎輸出細動脈拡張による腎灌流圧低下時の糸球体濾過量（GFR）低下・血清クレアチニン上昇（高窒素血症）、およびキニナーゼ II 阻害によるブラジキニン分解低下・蓄積が関与する乾性咳嗽や血管浮腫の機序を併せ持つ。",
+   "en": "Enalapril is an oral ethyl ester prodrug hydrolyzed in the liver by carboxylesterase 1 (CES1) to the active diacid enalaprilat, which potently inhibits ACE (kininase II, P12821). This reduces angiotensin II formation and AT1 receptor (AGTR1) signaling, decreasing vasoconstriction and aldosterone secretion to lower blood pressure and improve heart failure survival, while also explaining hyperkalemia, efferent arteriole dilation-related GFR changes, and bradykinin-associated cough and angioedema."
+  },
+  "scope": {
+   "ja": "エナラプリル（プロドラッグ）の肝 CES1 による加水分解活性化、エナラプリラートによる ACE（キニナーゼ II）阻害、アンジオテンシン II / AT1 受容体経路抑制による血管拡張・アルドステロン低下・降圧および心不全予後改善、輸出細動脈拡張に伴う GFR・高窒素血症の変化、高カリウム血症、ブラジキニン分解低下に関連する空咳・血管浮腫（機序仮説および臨床エビデンスの不一致を含む）、ならびにエナラプリラートの腎排泄を扱う。",
+   "en": "Covers prodrug activation by hepatic CES1, ACE/kininase II inhibition by enalaprilat, suppression of angiotensin II/AT1 receptor signaling, blood pressure and heart failure outcomes, efferent arteriole dilation and GFR regulation, hyperkalemia, bradykinin accumulation in cough and angioedema, and renal excretion of enalaprilat."
+  },
+  "nodes": [
+   {
+    "id": "enalapril",
+    "kind": "drug",
+    "level": "molecular",
+    "label": {
+     "ja": "エナラプリル（エチルエステル型プロドラッグ）",
+     "en": "Enalapril (ethyl ester prodrug)"
+    },
+    "description": {
+     "ja": "エナラプリラートのモノエチルエステル型プロドラッグ（経口製剤としてはマレイン酸塩）。経口投与後に消化管から 60〜70% が良好に吸収され、投与約 1 時間後に最高血漿中濃度に達した後、肝臓で脱エステル化を受けて活性体エナラプリラートに変換される。",
+     "en": "Monoethyl ester prodrug of enalaprilat (formulated as the maleate salt) with 60-70% oral absorption and peak plasma concentration at 1 hour before hepatic de-esterification."
+    },
+    "entityRef": "cmp:pubchem:5388962",
+    "externalIds": {
+     "pubchemCid": 5388962,
+     "chemblId": "CHEMBL578",
+     "chebiId": "CHEBI:4784",
+     "inchiKey": "GBXSMTUPTTWBMN-XIRDDKMYSA-N",
+     "keggDrugId": "D07892"
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:6085275",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "エナラプリルは強力な非メルカプト系アンジオテンシン変換酵素阻害薬エナラプリラートのモノエチルエステル体として設計されたプロドラッグである。",
+       "en": "Enalapril is the mono ethyl ester prodrug of the potent non-mercapto angiotensin-converting enzyme inhibitor enalaprilat."
+      },
+      "species": "Homo sapiens",
+      "system": "プロドラッグ分子設計（エナラプリル／エナラプリラート）",
+      "method": "ACE 阻害薬の創薬化学総説"
+     },
+     {
+      "referenceId": "ref:pmid:8261712",
+      "level": "human",
+      "claimType": "measured",
+      "supports": {
+       "ja": "エナラプリルは脂溶性でそれ自体は比較的活性の低いプロドラッグであり、経口吸収率は 60〜70%、最高血漿中濃度到達時間（tmax）は 1 時間であり、肝臓での脱エステル化により 4 時間までに血漿中から消失する。",
+       "en": "Enalapril is a lipid-soluble, relatively inactive prodrug with 60 to 70% oral absorption, a peak plasma concentration at 1 hour, and rapid clearance by hepatic de-esterification."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト消化管吸収および全身血漿",
+      "method": "ヒト経口投与時の臨床薬物動態解析",
+      "measurement": {
+       "quantity": "oral_absorption",
+       "value": 65,
+       "unit": "%",
+       "range": {
+        "min": 60,
+        "max": 70
+       },
+       "conditions": "Oral administration of enalapril in humans"
+      }
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "ces1",
+    "kind": "enzyme",
+    "level": "molecular",
+    "label": {
+     "ja": "肝カルボキシルエステラーゼ 1（CES1）",
+     "en": "Liver carboxylesterase 1 (CES1)"
+    },
+    "description": {
+     "ja": "ヒト肝臓における主要な加水分解酵素（セリンエステラーゼ）。エステル型プロドラッグであるエナラプリルを選択的に加水分解し、活性代謝物エナラプリラートへと活性化する（CES2 は関与しない）。",
+     "en": "Major hydrolase in human liver that selectively catalyzes the hydrolytic activation of the ester prodrug enalapril to enalaprilat."
+    },
+    "entityRef": "tgt:uniprot:P23141",
+    "externalIds": {
+     "uniprot": "P23141",
+     "hgncSymbol": "CES1",
+     "ncbiGeneId": 1066,
+     "chemblId": "CHEMBL2265",
+     "reactomeId": "R-HSA-211945",
+     "pdbIds": [
+      "1MX1",
+      "1MX5"
+     ]
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:24141856",
+      "level": "in_vitro",
+      "claimType": "measured",
+      "supports": {
+       "ja": "組換えヒト CES1 および CES2 を用いた in vitro 代謝試験において、エナラプリルは CES1 によって加水分解されたが CES2 では加水分解されず、CES1 による固有クリアランスは 0.02 mL/min/mg protein であった。",
+       "en": "In vitro, enalapril was hydrolyzed by recombinant human CES1 (but not CES2) with an intrinsic clearance of 0.02 ml/min/mg protein."
+      },
+      "species": "Homo sapiens",
+      "system": "組換えヒトカルボキシルエステラーゼ 1（CES1）および CES2 酵素系",
+      "method": "in vitro エステル加水分解速度論アッセイ",
+      "measurement": {
+       "quantity": "CLint",
+       "value": 0.02,
+       "unit": "mL/min/mg_protein",
+       "conditions": "Hydrolytic activation of enalapril by recombinant human CES1 in vitro"
+      }
+     },
+     {
+      "referenceId": "ref:pmid:26076923",
+      "level": "in_vitro",
+      "claimType": "measured",
+      "supports": {
+       "ja": "ヒト肝・小腸・腎 S9 画分を用いた検討によりエナラプリルは肝臓の CES1 によって選択的に活性化されることが示され、機能喪失型変異 G143E（rs71647871）ヘテロ接合体（143G/E）のヒト肝試料ではエナラプリル活性化能が野生型（143G/G）の約 3 分の 1 に低下した。",
+       "en": "In vitro incubation of human liver, intestine, and kidney S9 fractions demonstrated that enalapril is selectively activated by CES1 in the liver, and human livers with the CES1 143G/E genotype had approximately one-third of the activation activity of 143G/G livers."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト肝・小腸・腎 S9 画分（正常ヒト肝試料 102 検体）および遺伝子導入細胞株",
+      "method": "臓器別 S9 画分および CES1 遺伝子多型別のエナラプリル加水分解活性測定"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "enalaprilat",
+    "kind": "metabolite",
+    "level": "molecular",
+    "label": {
+     "ja": "エナラプリラート（活性ジアシッド代謝物）",
+     "en": "Enalaprilat (active diacid metabolite)"
+    },
+    "description": {
+     "ja": "エナラプリルのエチルエステルが加水分解されて生じる活性ジカルボン酸（ジアシッド）代謝物。経口エナラプリル投与後 2〜4 時間で最高血漿中濃度に達し、ACE の活性部位亜鉛イオンを含む触媒部位に高親和性で結合して競合的に阻害する。",
+     "en": "Active diacid metabolite formed by de-esterification of enalapril; reaches peak plasma concentration 2 to 4 hours after oral enalapril dosing and acts as a potent competitive inhibitor of ACE."
+    },
+    "entityRef": "cmp:pubchem:5462501",
+    "externalIds": {
+     "pubchemCid": 5462501,
+     "chemblId": "CHEMBL577",
+     "inchiKey": "LZFZMUMEGBBDTC-QEJZJMRPSA-N"
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:2982845",
+      "level": "in_vitro",
+      "claimType": "measured",
+      "supports": {
+       "ja": "エナラプリラート（N alpha-[(S)-1-carboxy-3-phenylpropyl]L-alanyl-L-proline）は精製ウサギ肺 ACE の強力な競合的阻害薬であり、pH 7.5・25℃・0.3 M 塩化物イオン条件下で Ki = 2×10^-10 M（0.2 nM）、pH 6 付近では Ki = 4±1×10^-11 M を示し、亜鉛を除去したアポ酵素に対する親和性はホロ酵素の 2×10^4 分の 1 に低下する。",
+       "en": "Enalaprilat is a potent competitive inhibitor of purified rabbit lung ACE with Ki = 2 x 10^-10 M (0.2 nM) at pH 7.5, 25 degrees C, 0.3 M chloride ion, and 2 x 10^4-fold lower affinity for the zinc-free apoenzyme."
+      },
+      "species": "Oryctolagus cuniculus",
+      "system": "精製ウサギ肺アンジオテンシン変換酵素（ホロ酵素および亜鉛除去アポ酵素）",
+      "method": "in vitro 酵素阻害速度論解析（結合速度定数・解離速度定数・Ki 測定）",
+      "measurement": {
+       "quantity": "Ki",
+       "value": 0.2,
+       "unit": "nM",
+       "conditions": "Purified rabbit lung ACE at pH 7.5, 25 degrees C, 0.3 M chloride ion"
+      }
+     },
+     {
+      "referenceId": "ref:pmid:8261712",
+      "level": "human",
+      "claimType": "measured",
+      "supports": {
+       "ja": "経口エナラプリル投与後、活性代謝物エナラプリラートの血漿中濃度は 2〜4 時間でピークに達する。",
+       "en": "Peak plasma enalaprilat concentrations occur 2 to 4 hours after oral enalapril administration."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト血漿（経口エナラプリル投与後）",
+      "method": "臨床薬物動態解析",
+      "measurement": {
+       "quantity": "tmax",
+       "value": 3,
+       "unit": "h",
+       "range": {
+        "min": 2,
+        "max": 4
+       },
+       "conditions": "Time to peak plasma enalaprilat concentration after oral enalapril administration in humans"
+      }
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "ace",
+    "kind": "enzyme",
+    "level": "molecular",
+    "label": {
+     "ja": "アンジオテンシン変換酵素（ACE / キニナーゼ II）",
+     "en": "Angiotensin-converting enzyme (ACE / Kininase II)"
+    },
+    "description": {
+     "ja": "不活性デカペプチドであるアンジオテンシン I から血管収縮性オクタペプチドであるアンジオテンシン II を切り出すとともに、血管拡張ペプチドであるブラジキニンの C 末端から Phe-Arg を切断して不活化する亜鉛メタロペプチダーゼ（キニナーゼ II）。",
+     "en": "Zinc metallopeptidase (also known as kininase II) that cleaves inactive decapeptide angiotensin I into active octapeptide angiotensin II while simultaneously inactivating bradykinin by removing C-terminal Phe-Arg."
+    },
+    "entityRef": "tgt:uniprot:P12821",
+    "externalIds": {
+     "uniprot": "P12821",
+     "hgncSymbol": "ACE",
+     "ncbiGeneId": 1636,
+     "chemblId": "CHEMBL1808",
+     "reactomeId": "R-HSA-2022377",
+     "pdbIds": [
+      "1O86",
+      "1UZE"
+     ]
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:21896148",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "アンジオテンシン変換酵素（キニナーゼ II）は、不活性なデカペプチド前駆体アンジオテンシン I から血管収縮性のオクタペプチドであるアンジオテンシン II を切り出すと同時に、血管拡張因子ブラジキニンを不活化する。",
+       "en": "Angiotensin-converting enzyme-1 (kininase II) cleaves the vasoconstrictor octapeptide angiotensin II from its inactive decapeptide precursor angiotensin I while simultaneously inactivating the vasodilator bradykinin."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒトレニンーアンジオテンシン系およびカリクレインーキニン系",
+      "method": "ACE 阻害薬の臨床薬理学総説"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "angiotensin-i",
+    "kind": "endogenous_molecule",
+    "level": "molecular",
+    "label": {
+     "ja": "アンジオテンシン I（不活性デカペプチド前駆体）",
+     "en": "Angiotensin I (inactive decapeptide precursor)"
+    },
+    "description": {
+     "ja": "レニンーアンジオテンシン系におけるアンジオテンシン II の不活性なデカペプチド前駆体。ACE により C 末端ジペプチドが切断されてアンジオテンシン II となる。",
+     "en": "Inactive decapeptide precursor cleaved by ACE to form the active octapeptide angiotensin II."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:21896148",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "アンジオテンシン I は不活性なデカペプチド前駆体であり、ACE により切断されてアンジオテンシン II となる。",
+       "en": "Angiotensin I is the inactive decapeptide precursor cleaved by ACE into angiotensin II."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒトレニンーアンジオテンシン系",
+      "method": "ACE 阻害薬の薬理学総説"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "angiotensin-ii",
+    "kind": "endogenous_molecule",
+    "level": "molecular",
+    "label": {
+     "ja": "アンジオテンシン II（活性オクタペプチド）",
+     "en": "Angiotensin II (active octapeptide)"
+    },
+    "description": {
+     "ja": "レニンーアンジオテンシン系の主要な生理活性エフェクター分子（オクタペプチド）。AT1 受容体を刺激して全身血管収縮、腎輸出細動脈収縮、尿細管ナトリウム再吸収促進、および副腎からのアルドステロン分泌を引き起こす。",
+     "en": "Potent biologically active octapeptide effector of the renin-angiotensin system that mediates vasoconstriction, efferent arteriolar constriction, and aldosterone secretion."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:1524767",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "オクタペプチドであるアンジオテンシン II はレニンーアンジオテンシン系の生理活性成分であり、各種標的臓器表面の特異的受容体を刺激して多面的な作用を発現する。",
+       "en": "The octapeptide angiotensin II is the biologically active component of the renin-angiotensin system and elicits its actions through specific surface receptors on target organs."
+      },
+      "species": "Homo sapiens",
+      "system": "レニンーアンジオテンシン系および標的臓器受容体",
+      "method": "アンジオテンシン II 受容体サブタイプの薬理学総説"
+     },
+     {
+      "referenceId": "ref:pmid:1893644",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "ACE 阻害薬の慢性的な腎および降圧作用は主にアンジオテンシン II 産生の遮断によって媒介される。",
+       "en": "The chronic renal and blood pressure actions of ACE inhibitors are mediated mainly by blockade of angiotensin II formation."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト血圧・体液恒常性および腎循環系",
+      "method": "RAAS による血圧制御に関する生理学・薬理学総説"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "agtr1",
+    "kind": "receptor",
+    "level": "molecular",
+    "label": {
+     "ja": "1 型アンジオテンシン II 受容体（AT1 受容体 / AGTR1）",
+     "en": "Type-1 angiotensin II receptor (AT1 receptor / AGTR1)"
+    },
+    "description": {
+     "ja": "アンジオテンシン II の主要な生理作用（血管平滑筋収縮、副腎皮質からのアルドステロン分泌、カテコールアミン放出など）を媒介する G 蛋白質共役型受容体。ACE 阻害によりアンジオテンシン II が減少すると AT1 受容体刺激が低下する。",
+     "en": "G protein-coupled receptor that mediates the major biological effects of angiotensin II, including vasoconstriction and adrenal aldosterone secretion."
+    },
+    "entityRef": "tgt:uniprot:P30556",
+    "externalIds": {
+     "uniprot": "P30556",
+     "hgncSymbol": "AGTR1",
+     "ncbiGeneId": 185,
+     "chemblId": "CHEMBL227",
+     "reactomeId": "R-HSA-416476",
+     "pdbIds": [
+      "4YAY",
+      "4ZUD"
+     ]
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:1524767",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "AT1 受容体（DuP 753 感受性部位）は、血管収縮および副腎アルドステロン分泌を含むアンジオテンシン II 誘発性の主要な生物学的反応のすべてを媒介する。",
+       "en": "The AT1 receptor mediates all the major angiotensin II-induced biological effects, including adrenal aldosterone secretion and vasoconstriction."
+      },
+      "species": "Homo sapiens",
+      "system": "血管平滑筋および副腎皮質細胞表面 AT1 受容体",
+      "method": "選択的非ペプチド性拮抗薬（DuP 753 等）を用いた受容体サブタイプ解析総説"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "bradykinin",
+    "kind": "endogenous_molecule",
+    "level": "molecular",
+    "label": {
+     "ja": "ブラジキニン（血管拡張ペプチド）",
+     "en": "Bradykinin"
+    },
+    "description": {
+     "ja": "血管拡張作用および血管透過性亢進作用を持つ内因性ペプチド。通常は ACE（キニナーゼ II）により C 末端の Phe-Arg が切断されて不活化されるが、ACE 阻害時には分解が抑制されて血漿・組織中に蓄積する。",
+     "en": "Endogenous vasodilator peptide normally inactivated by ACE (kininase II) via removal of C-terminal Phe-Arg; accumulates when ACE is inhibited."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:24925394",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "ACE はブラジキニンの C 末端から Phe-Arg を除去することで不活化するため、ACE 阻害薬投与時にはブラジキニンの分解が抑制されて蓄積が生じる。",
+       "en": "ACE metabolizes bradykinin by removal of Phe-Arg from the C-terminus to inactivate it; ACE inhibitor therapy suppresses bradykinin degradation so that it accumulates."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト血漿カリクレインーキニン系",
+      "method": "ブラジキニン介在性疾患の病態生理総説"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "bdkrb2",
+    "kind": "receptor",
+    "level": "molecular",
+    "label": {
+     "ja": "ブラジキニン B2 受容体（BDKRB2）",
+     "en": "Bradykinin B2 receptor (BDKRB2)"
+    },
+    "description": {
+     "ja": "蓄積したブラジキニンが結合する G 蛋白質共役型受容体。血管透過性亢進を介したブラジキニン介在性血管浮腫の病態に関与するとされるが、ACE 阻害薬誘発性血管浮腫における B2 受容体拮抗薬イカチバントの介入試験結果は一致していない。",
+     "en": "G protein-coupled receptor stimulated by bradykinin, implicated in increased vascular permeability in bradykinin-mediated angioedema."
+    },
+    "entityRef": "tgt:uniprot:P30411",
+    "externalIds": {
+     "uniprot": "P30411",
+     "hgncSymbol": "BDKRB2",
+     "ncbiGeneId": 624,
+     "chemblId": "CHEMBL3157",
+     "reactomeId": "R-HSA-416476",
+     "pdbIds": [
+      "7F2O",
+      "7F6H"
+     ]
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:24925394",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "ブラジキニン血漿濃度の上昇に起因する疾患群はいずれも血管浮腫を主要な臨床症状とし、ブラジキニン B2 受容体拮抗薬（イカチバント）がブラジキニン受容体シグナルの標的薬として用いられる。",
+       "en": "Diseases caused by increased plasma levels of bradykinin have angioedema as the major clinical manifestation, where B2 receptor antagonism (icatibant) targets bradykinin signaling."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト血管内皮ブラジキニン B2 受容体",
+      "method": "ブラジキニン介在性疾患の総説"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "vascular-smooth-muscle-constriction",
+    "kind": "cell",
+    "level": "cellular",
+    "label": {
+     "ja": "血管平滑筋収縮（全身末梢血管抵抗）",
+     "en": "Vascular smooth muscle constriction (systemic vascular resistance)"
+    },
+    "description": {
+     "ja": "アンジオテンシン II の AT1 受容体刺激によって生じる動脈・静脈の血管収縮。エナラプリルによる ACE 阻害ではこの収縮が緩和され、心拍数の反射性増加を伴わずに末梢血管抵抗が低下する。",
+     "en": "Arterial and venous vasoconstriction mediated by AT1 receptor stimulation; reduced by enalapril to lower peripheral vascular resistance without reflex tachycardia."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:2982541",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "エナラプリルは心拍数の増加を引き起こすことなく末梢血管抵抗を低下させ、うっ血性心不全患者では心臓の前負荷および後負荷の双方を軽減する。",
+       "en": "Enalapril lowers peripheral vascular resistance without causing an increase in heart rate and reduces both cardiac preload and afterload in patients with congestive heart failure."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト末梢血管系および心臓血行動態",
+      "method": "エナラプリルマレイン酸塩の臨床薬理・血行動態総説"
+     },
+     {
+      "referenceId": "ref:pmid:37284934",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "ACE 阻害によるアンジオテンシン II 合成阻害は動脈および静脈の血管拡張、ナトリウム利尿、交感神経活性の低下を引き起こす。",
+       "en": "Inhibiting the synthesis of angiotensin II causes arterial and venous vasodilation, natriuresis, and a decrease in sympathetic activity."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト動脈・静脈血管系",
+      "method": "高血圧における ACE 阻害薬の薬理学総説"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "adrenal-aldosterone-secretion",
+    "kind": "cell",
+    "level": "cellular",
+    "label": {
+     "ja": "副腎皮質アルドステロン分泌",
+     "en": "Adrenal aldosterone secretion"
+    },
+    "description": {
+     "ja": "アンジオテンシン II の AT1 受容体刺激により促進される副腎皮質からのアルドステロン分泌。アルドステロンは腎でのナトリウム・水分保持とカリウム排泄を促進するため、ACE 阻害により分泌が低下するとナトリウム利尿が促される一方、カリウム排泄が低下する。",
+     "en": "Aldosterone secretion from the adrenal cortex stimulated by angiotensin II via AT1 receptors; its reduction promotes natriuresis while decreasing renal potassium excretion."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:2188439",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "アンジオテンシン II はアルドステロン分泌刺激を介してナトリウムおよび水分の貯留を促進するため、ACE 阻害薬は血管拡張と血管内体液量の減少により血圧を低下させる。",
+       "en": "Angiotensin II promotes increased sodium and water retention via aldosterone stimulation, and ACE inhibitors lower blood pressure by promoting vasodilation and reducing intravascular fluid volume."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト副腎皮質および腎体液調節系",
+      "method": "ACE 阻害薬の比較薬理学総説"
+     },
+     {
+      "referenceId": "ref:pmid:34438065",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "RAAS 阻害薬はアルドステロン分泌の低下をもたらし、それがカリウム排泄低下による高カリウム血症の原因となる。",
+       "en": "RAAS inhibitors cause reduced secretion of aldosterone, resulting in hyperkalemia."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト副腎皮質・腎カリウム排泄系",
+      "method": "RAAS 阻害に伴う高カリウム血症の病態生理総説"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "efferent-arteriole-tone",
+    "kind": "tissue",
+    "level": "tissue",
+    "label": {
+     "ja": "腎糸球体輸出細動脈の収縮トーヌス",
+     "en": "Renal glomerular efferent arteriole constriction tone"
+    },
+    "description": {
+     "ja": "腎内で生成されるアンジオテンシン II は糸球体輸出細動脈に対して強力な収縮作用を持ち、特に腎動脈狭窄や心不全など腎灌流圧が低下した状態で糸球体濾過圧を維持する役割を担う。エナラプリル等の ACE 阻害によりアンジオテンシン II が減少すると輸出細動脈が拡張する。",
+     "en": "Intrarenally formed angiotensin II exerts a potent constrictor action on glomerular efferent arterioles to stabilize glomerular filtration pressure; ACE inhibition removes this constriction, dilating the efferent arteriole."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:1893644",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "アンジオテンシン II の腎内作用には尿細管ナトリウム輸送への直接作用と輸出細動脈に対する強力な収縮作用が含まれ、輸出細動脈の収縮は腎動脈狭窄や心不全など腎灌流が低下した状況で糸球体濾過量（GFR）を安定化させる働きを持つ。",
+       "en": "The intrarenal actions of angiotensin II include a potent constrictor action on efferent arterioles, which helps stabilize glomerular filtration rate when renal perfusion is impaired."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト腎糸球体輸出細動脈",
+      "method": "RAAS による腎血行動態制御の総説"
+     },
+     {
+      "referenceId": "ref:pmid:9915266",
+      "level": "human",
+      "claimType": "measured",
+      "supports": {
+       "ja": "うっ血性心不全患者 8 名にエナラプリル（5 mg を 12 時間ごとに 2 回）を投与すると、アミノ酸負荷に対する平均腎血流量が 383±55 から 557±51 mL/min へと 45% 増加した（p<0.05）一方で GFR の増加は伴わず濾過率（filtration fraction）が低下し、エナラプリルによる輸出細動脈優位の拡張が示された。",
+       "en": "In 8 patients with congestive heart failure, enalapril treatment (two 5-mg doses 12 hours apart) restored renal vasodilation to amino acid infusion with a 45% increase in mean renal blood flow (383 +/- 55 to 557 +/- 51 mL/min, p<0.05) without an increase in GFR (filtration fraction decreased), indicating predominant efferent arteriole dilatation."
+      },
+      "species": "Homo sapiens",
+      "system": "うっ血性心不全患者（8 名）の腎循環系",
+      "method": "エナラプリル（5 mg×2 回、12 時間間隔）投与前後のアミノ酸静注負荷に対する腎血流量・GFR・濾過率測定",
+      "measurement": {
+       "quantity": "renal_blood_flow_increase",
+       "value": 45,
+       "unit": "%",
+       "conditions": "Increase in mean renal blood flow (from 383 to 557 mL/min, p<0.05) during amino acid infusion after two 5-mg oral doses of enalapril in 8 CHF patients"
+      }
+     },
+     {
+      "referenceId": "ref:pmid:6377913",
+      "level": "animal",
+      "claimType": "measured",
+      "supports": {
+       "ja": "イヌ腎灌流圧低下モデル（70 mmHg）において、ACE 阻害薬カプトプリル（SQ 14225）により腎内アンジオテンシン II 生成を遮断すると、糸球体前（輸入細動脈）抵抗は変化しない一方、算出された輸出細動脈抵抗が大きく低下した。",
+       "en": "In dogs during reduction of renal artery pressure to 70 mmHg, blockade of intrarenal angiotensin II formation with SQ 14225 (captopril) decreased calculated efferent arteriolar resistance while preglomerular resistance was unchanged."
+      },
+      "species": "Canis lupus familiaris",
+      "system": "イヌ腎灌流圧低下モデル（腎動脈圧 70 mmHg、腎内 RAS 単独評価系）",
+      "method": "エナラプリルではなく ACE 阻害薬カプトプリル（SQ 14225）投与およびアンジオテンシン II 再還流・持続注入下での腎血行動態（GFR・腎血流量・輸出／輸入細動脈抵抗）測定"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "renal-tubular-excretion-enalaprilat",
+    "kind": "organ",
+    "level": "organ",
+    "label": {
+     "ja": "エナラプリラートの腎排泄（糸球体濾過）",
+     "en": "Renal excretion of enalaprilat"
+    },
+    "description": {
+     "ja": "エナラプリル投与量の約 3 分の 2 は未変化体および活性体エナラプリラートとして尿中に排泄される。エナラプリラートは初期相（半減期 2〜6 時間、腎濾過を反映）と組織 ACE 結合部位からの平衡化を反映する終末相（半減期 36 時間）の二相性消失を示し、腎機能障害（特にクレアチニンクリアランス 20〜30 mL/min 未満）では蓄積するため減量を要する。",
+     "en": "Enalaprilat is eliminated primarily via the kidneys with biphasic kinetics (initial renal filtration t1/2 2-6 h; terminal tissue-equilibration t1/2 36 h) and accumulates in renal impairment (CrCl < 20-30 mL/min)."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:8261712",
+      "level": "human",
+      "claimType": "measured",
+      "supports": {
+       "ja": "エナラプリラートの消失は腎濾過を反映する初期相（消失半減期 2〜6 時間）と組織分布部位からの平衡化を反映する終末相（消失半減期 36 時間）の二相性を示し、腎機能障害（特にクレアチニンクリアランス 20 mL/min 未満）ではエナラプリラートの著明な蓄積が生じるため減量が必要となる。",
+       "en": "Enalaprilat elimination is biphasic with an initial renal filtration phase (t1/2 2 to 6 hours) and a prolonged terminal phase (t1/2 36 hours); renal impairment (CrCl < 20 ml/min) results in significant accumulation requiring dosage reduction."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト腎排泄系および血漿",
+      "method": "臨床薬物動態解析（二相性消失半減期および腎機能障害時の蓄積評価）",
+      "measurement": {
+       "quantity": "t1/2_terminal",
+       "value": 36,
+       "unit": "h",
+       "conditions": "Prolonged terminal elimination phase reflecting equilibration of enalaprilat from tissue ACE binding sites in humans"
+      }
+     },
+     {
+      "referenceId": "ref:pmid:2188439",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "投与されたエナラプリルの約 3 分の 2 は未変化体および代謝物エナラプリラートとして尿中に排泄され、残りは糞中に排泄される。",
+       "en": "Approximately two-thirds of an administered enalapril dose is excreted in the urine as both the parent drug and the metabolite enalaprilat, with the remainder excreted in the feces."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト尿中・糞中排泄系",
+      "method": "ACE 阻害薬の臨床薬物動態比較総説"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "glomerular-filtration-pressure",
+    "kind": "physiological_parameter",
+    "level": "organ",
+    "label": {
+     "ja": "糸球体濾過圧・GFR（血清クレアチニン・高窒素血症の変化）",
+     "en": "Glomerular filtration pressure and GFR (serum creatinine and azotemia changes)"
+    },
+    "description": {
+     "ja": "輸出細動脈拡張により糸球体内圧（濾過率）が低下する。糖尿病性腎症などの高濾過状態では長期的な腎保護につながる一方、腎動脈狭窄や心不全など輸入細動脈血流が低下している状態では GFR 低下と血清クレアチニン上昇（高窒素血症）を引き起こしうる。",
+     "en": "Efferent arteriole dilation reduces intraglomerular filtration pressure and filtration fraction, conferring long-term renoprotection in hyperfiltration states but potentially causing acute GFR decrease and serum creatinine elevation (azotemia) when afferent perfusion is compromised."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:9000551",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "ACE 阻害薬の腎における治療上の利点の一部は輸出細動脈からアンジオテンシン II の作用を取り除くことに由来するが、腎動脈狭窄の遠位など輸入細動脈血流が損なわれた状況では糸球体濾過量（GFR）の低下を招きうる。",
+       "en": "Therapeutic advantages of ACE inhibitors in the kidney derive partly from removing angiotensin II at the efferent arteriole, whereas when afferent blood supply is compromised (such as beyond renal artery stenosis), ACE inhibitors can lead to decrements in GFR."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト腎糸球体（特に腎動脈狭窄や腎灌流低下状態）",
+      "method": "ACE 阻害薬関連腎機能変化の臨床総説"
+     },
+     {
+      "referenceId": "ref:pmid:21896148",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "ACE 阻害中の血清クレアチニン上昇（糸球体濾過量の低下）は、長期的な腎保護効果を得られる可能性が高い患者群を識別する指標ともなる。",
+       "en": "Increased serum creatinine (decreased glomerular filtration rate) during acute or chronic ACE inhibition identifies individuals likely to experience long-term renal protective benefits."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト腎糸球体濾過系",
+      "method": "ACE 阻害薬の臨床薬理総説"
+     },
+     {
+      "referenceId": "ref:pmid:8579032",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "左室機能不全患者 6,797 例を対象とした SOLVD 試験（平均追跡 40 か月）において、エナラプリル群ではプラセボ群と比較して高窒素血症（azotemia）の発現率が 3.8% 対 1.6%（p<0.0001）と有意に高かった。",
+       "en": "In 6,797 SOLVD participants, enalapril use was associated with a higher rate of azotemia compared with placebo (3.8% vs 1.6%, p<0.0001)."
+      },
+      "species": "Homo sapiens",
+      "system": "左室駆出率 0.35 以下の慢性心不全／左室機能不全患者（6,797 例）",
+      "method": "二重盲検ランダム化プラセボ対照比較試験（SOLVD 試験、平均追跡 40 か月）の有害事象解析",
+      "measurement": {
+       "quantity": "incidence_azotemia",
+       "value": 3.8,
+       "unit": "%",
+       "conditions": "Enalapril group vs 1.6% in placebo group over 40 months average follow-up in SOLVD (n=6,797, p<0.0001)"
+      }
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "blood-pressure-reduction",
+    "kind": "clinical_effect",
+    "level": "clinical",
+    "label": {
+     "ja": "血圧低下・慢性心不全の予後改善",
+     "en": "Blood pressure reduction and improved survival in chronic heart failure"
+    },
+    "description": {
+     "ja": "全身末梢血管抵抗の低下およびナトリウム・体液貯留の軽減により高血圧症患者の血圧を低下させる。また左室駆出率の低下した慢性心不全患者において前負荷・後負荷を軽減し、死亡率および心不全悪化による入院を有意に減少させる。",
+     "en": "Lowers blood pressure in hypertension by reducing systemic vascular resistance and intravascular volume, and significantly reduces mortality and heart failure hospitalizations in patients with reduced left ventricular ejection fraction."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:2057034",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "左室駆出率 0.35 以下の慢性心不全患者 2,569 例を対象としたランダム化比較試験（SOLVD 治療試験、エナラプリル 2.5〜20 mg/日、平均追跡 41.4 か月）において、エナラプリル群はプラセボ群に比べ全死亡リスクを 16%（死亡率 35.2% 対 39.7%、p=0.0036）、死亡または心不全悪化による入院の複合リスクを 26%（p<0.0001）有意に減少させた。",
+       "en": "In 2,569 patients with chronic heart failure and ejection fraction <= 0.35 (SOLVD trial, 2.5-20 mg/day, mean follow-up 41.4 months), enalapril reduced mortality by 16% (35.2% vs 39.7%, p=0.0036) and death or hospitalization for worsening heart failure by 26% (p<0.0001)."
+      },
+      "species": "Homo sapiens",
+      "system": "左室駆出率 0.35 以下の慢性うっ血性心不全患者（2,569 例）",
+      "method": "多施設二重盲検ランダム化プラセボ対照試験（SOLVD Treatment Trial, エナラプリル 2.5〜20 mg/日、平均追跡 41.4 か月）",
+      "measurement": {
+       "quantity": "mortality_risk_reduction",
+       "value": 16,
+       "unit": "%",
+       "conditions": "Enalapril 2.5-20 mg/day vs placebo over 41.4 months average follow-up in heart failure patients with LVEF <= 0.35 (p=0.0036)"
+      }
+     },
+     {
+      "referenceId": "ref:pmid:6089556",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "本態性高血圧症患者の 54〜66% においてエナラプリル単独療法で良好〜優良な降圧効果が得られ、利尿薬または β 遮断薬と同等以上の有効性を示す。",
+       "en": "Enalapril produces good to excellent blood pressure responses in 54 to 66 percent of patients with essential hypertension."
+      },
+      "species": "Homo sapiens",
+      "system": "本態性高血圧症患者",
+      "method": "エナラプリル国際臨床試験データの総括解析"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "hyperkalemia",
+    "kind": "adverse_effect",
+    "level": "clinical",
+    "label": {
+     "ja": "高カリウム血症",
+     "en": "Hyperkalemia"
+    },
+    "description": {
+     "ja": "アンジオテンシン II 低下に伴う副腎アルドステロン分泌低下および腎機能低下時のカリウム排泄低下により、血清カリウム値が上昇する副作用。",
+     "en": "Elevation of serum potassium caused by reduced aldosterone secretion and impaired renal potassium excretion during RAAS inhibition."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:34438065",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "高カリウム血症は RAAS 阻害薬の代表的な副作用であり、アルドステロン分泌の低下またはアルドステロン抵抗性の増大に起因し、慢性腎臓病や心不全を合併する患者でリスクが増幅される。",
+       "en": "Hyperkalemia is a common adverse effect of RAAS inhibitors resulting from reduced secretion of aldosterone or increased resistance to aldosterone."
+      },
+      "species": "Homo sapiens",
+      "system": "RAAS 阻害薬投与患者（特に CKD・心不全合併例）",
+      "method": "RAAS 阻害薬による高カリウム血症の機序・臨床管理総説"
+     },
+     {
+      "referenceId": "ref:pmid:8579032",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "SOLVD 試験（6,797 例）において、エナラプリル群ではプラセボ群と比較して高カリウム血症の発現率が 1.2% 対 0.4%（p=0.0002）と有意に高かった。",
+       "en": "In the SOLVD trials (n=6,797), enalapril was associated with a higher rate of hyperkalemia than placebo (1.2% vs 0.4%, p=0.0002)."
+      },
+      "species": "Homo sapiens",
+      "system": "左室駆出率 0.35 以下の左室機能不全患者（6,797 例）",
+      "method": "二重盲検ランダム化プラセボ対照比較試験（SOLVD 試験）有害事象解析",
+      "measurement": {
+       "quantity": "incidence_hyperkalemia",
+       "value": 1.2,
+       "unit": "%",
+       "conditions": "Enalapril group vs 0.4% in placebo group in SOLVD (n=6,797, p=0.0002)"
+      }
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "dry-cough",
+    "kind": "adverse_effect",
+    "level": "clinical",
+    "label": {
+     "ja": "乾性咳嗽（空咳）",
+     "en": "Persistent dry cough"
+    },
+    "description": {
+     "ja": "ACE 阻害薬クラス共通にみられる用量非依存性の乾性咳嗽。投与患者の 5〜35%（SOLVD 試験のエナラプリル群では 5.0%）に報告され、投与開始後 1 日〜12 か月で発症しうる。機序は完全には解明されていないが、ACE 阻害により分解が妨げられるブラジキニン、サブスタンス P、プロスタグランジンなどの蓄積が関与しうると考えられている。",
+     "en": "Class-wide, dose-independent dry cough observed in 5-35% of ACE inhibitor-treated patients (5.0% in SOLVD); mechanism remains incompletely defined but may involve accumulation of bradykinin, substance P, or prostaglandins."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:25058867",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "ACE 阻害薬は投与患者の 5%〜35% に咳嗽を誘発し、クラス共通の副作用であるため他の ACE 阻害薬への切り替えは推奨されない。",
+       "en": "ACE inhibitors can induce cough in 5% to 35% of treated patients as a class adverse effect."
+      },
+      "species": "Homo sapiens",
+      "system": "ACE 阻害薬投与患者",
+      "method": "ACE 阻害薬の副作用に関する臨床総説",
+      "measurement": {
+       "quantity": "incidence_cough_range",
+       "value": 20,
+       "unit": "%",
+       "range": {
+        "min": 5,
+        "max": 35
+       },
+       "conditions": "Clinical incidence range of cough in patients treated with ACE inhibitors"
+      }
+     },
+     {
+      "referenceId": "ref:pmid:8579032",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "SOLVD 試験（6,797 例）において、エナラプリル群の咳嗽報告率は 5.0% であり、プラセボ群の 2.0% と比較して有意に高かった（p<0.0001）。",
+       "en": "In the SOLVD trials (n=6,797), cough was reported in 5.0% of the enalapril group vs 2.0% of the placebo group (p<0.0001)."
+      },
+      "species": "Homo sapiens",
+      "system": "左室機能不全患者（6,797 例）",
+      "method": "二重盲検ランダム化プラセボ対照比較試験（SOLVD 試験）有害事象解析",
+      "measurement": {
+       "quantity": "incidence_cough_SOLVD",
+       "value": 5,
+       "unit": "%",
+       "conditions": "Enalapril group vs 2.0% in placebo group in SOLVD (n=6,797, p<0.0001)"
+      }
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "angioedema",
+    "kind": "adverse_effect",
+    "level": "clinical",
+    "label": {
+     "ja": "血管浮腫（顔面・口唇・舌・気道浮腫）",
+     "en": "Angioedema"
+    },
+    "description": {
+     "ja": "ACE（キニナーゼ II）阻害によるブラジキニン分解低下・蓄積に関連して、顔面、口唇、舌、口蓋垂、上気道などに浮腫を生じる重篤な副作用。投与患者の 0.1〜0.7%（SOLVD 試験では 0.4%）に発現する。",
+     "en": "Potentially life-threatening edema of the face, lips, tongue, and upper airways associated with reduced catabolism and accumulation of bradykinin during ACE inhibition, occurring in 0.1-0.7% of treated patients."
+    },
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:31835086",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "ACE 阻害薬療法中に生じる血管浮腫は投与患者の 0.1〜0.7% に発生する合併症であり、顔面・口唇・舌・口蓋垂・上気道の浮腫を呈し、通常 ACE により代謝されるブラジキニンの異化低下と蓄積が主な発症機序とされる。",
+       "en": "ACE inhibitor-mediated angioedema occurs in 0.1 to 0.7% of treated patients, manifesting as edema of the face, lips, tongue, uvula, and upper airways, and depends mainly on reduced catabolism and accumulation of bradykinin."
+      },
+      "species": "Homo sapiens",
+      "system": "ACE 阻害薬投与患者の顔面・口唇・舌・口蓋垂・上気道組織",
+      "method": "ACE 阻害薬誘発性血管浮腫の疫学・病態・治療に関する臨床総説",
+      "measurement": {
+       "quantity": "incidence_angioedema",
+       "value": 0.4,
+       "unit": "%",
+       "range": {
+        "min": 0.1,
+        "max": 0.7
+       },
+       "conditions": "Patients treated with ACE inhibitors"
+      }
+     },
+     {
+      "referenceId": "ref:pmid:8579032",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "SOLVD 試験（6,797 例）において、エナラプリル群の血管浮腫発現率は 0.4%（プラセボ群 0.1%、p<0.05）であった。",
+       "en": "In the SOLVD trials (n=6,797), angioedema occurred in 0.4% of the enalapril group compared with 0.1% of the placebo group (p<0.05)."
+      },
+      "species": "Homo sapiens",
+      "system": "左室機能不全患者（6,797 例）",
+      "method": "二重盲検ランダム化プラセボ対照比較試験（SOLVD 試験）有害事象解析",
+      "measurement": {
+       "quantity": "incidence_angioedema_SOLVD",
+       "value": 0.4,
+       "unit": "%",
+       "conditions": "Enalapril group vs 0.1% in placebo group in SOLVD (n=6,797, p<0.05)"
+      }
+     }
+    ],
+    "status": "candidate"
+   }
+  ],
+  "edges": [
+   {
+    "id": "edge:enalapril-metabolized-to-enalaprilat",
+    "source": "enalapril",
+    "target": "enalaprilat",
+    "kind": "metabolized_to",
+    "effect": "positive",
+    "mode": {
+     "ja": "肝臓でのエチルエステル加水分解（脱エステル化）による活性ジアシッド体エナラプリラートへの変換",
+     "en": "Hepatic ester hydrolysis (de-esterification) converting the prodrug enalapril to the active diacid enalaprilat"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "tissue": "Liver"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:8261712",
+      "level": "human",
+      "claimType": "measured",
+      "supports": {
+       "ja": "プロドラッグであるエナラプリルは経口投与後、肝臓での脱エステル化により主要な活性ジアシッド代謝物エナラプリラートへと急速に変換される。",
+       "en": "Enalapril is rapidly cleared by de-esterification in the liver to its primary active diacid metabolite, enalaprilat."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト肝臓および全身血漿",
+      "method": "経口エナラプリル投与後の臨床薬物動態測定"
+     }
+    ],
+    "step": 1,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:ces1-catalyzes-enalaprilat-formation",
+    "source": "ces1",
+    "target": "enalaprilat",
+    "kind": "catalyzes",
+    "effect": "positive",
+    "mode": {
+     "ja": "ヒト肝カルボキシルエステラーゼ 1（CES1）によるエナラプリルの選択的加水分解活性化",
+     "en": "Selective hydrolytic activation of enalapril by human liver carboxylesterase 1 (CES1)"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "tissue": "Liver"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:24141856",
+      "level": "in_vitro",
+      "claimType": "measured",
+      "supports": {
+       "ja": "組換えヒト CES1 はエステル型プロドラッグであるエナラプリルを加水分解して活性化する（固有クリアランス 0.02 mL/min/mg protein）。",
+       "en": "Recombinant human CES1 catalyzes the hydrolytic activation of the ester prodrug enalapril."
+      },
+      "species": "Homo sapiens",
+      "system": "組換えヒトカルボキシルエステラーゼ 1（CES1）",
+      "method": "in vitro 組換え酵素加水分解アッセイ"
+     },
+     {
+      "referenceId": "ref:pmid:26076923",
+      "level": "in_vitro",
+      "claimType": "measured",
+      "supports": {
+       "ja": "ヒト肝・小腸・腎 S9 画分の比較により、エナラプリルは肝臓の CES1 によって選択的に活性化されることが確認された。",
+       "en": "Human S9 fraction incubations confirmed that enalapril is selectively activated by CES1 in the liver."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト肝・小腸・腎 S9 画分および正常ヒト肝試料（102 検体）",
+      "method": "in vitro S9 画分インキュベーションおよび CES1 遺伝子型別活性測定"
+     }
+    ],
+    "step": 1,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:enalaprilat-excreted-by-kidney",
+    "source": "enalaprilat",
+    "target": "renal-tubular-excretion-enalaprilat",
+    "kind": "leads_to",
+    "effect": "positive",
+    "mode": {
+     "ja": "腎糸球体濾過を主とする尿中排泄（腎機能低下時にはクリアランス低下により血中エナラプリラートが蓄積）",
+     "en": "Elimination primarily via renal filtration into urine (accumulates when creatinine clearance is reduced)"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "tissue": "Kidney"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:8261712",
+      "level": "human",
+      "claimType": "measured",
+      "supports": {
+       "ja": "エナラプリラートは初期相（半減期 2〜6 時間）において腎濾過により排泄され、クレアチニンクリアランス 20 mL/min 未満の腎機能障害では著明な蓄積をきたす。",
+       "en": "Enalaprilat is eliminated via renal filtration with an initial half-life of 2 to 6 hours and accumulates significantly in renal impairment (CrCl < 20 mL/min)."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト腎糸球体濾過・尿中排泄系",
+      "method": "臨床薬物動態解析",
+      "measurement": {
+       "quantity": "t1/2_initial",
+       "value": 4,
+       "unit": "h",
+       "range": {
+        "min": 2,
+        "max": 6
+       },
+       "conditions": "Initial elimination phase of enalaprilat reflecting renal filtration in humans"
+      }
+     }
+    ],
+    "step": 2,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:enalaprilat-inhibits-ace",
+    "source": "enalaprilat",
+    "target": "ace",
+    "kind": "inhibits",
+    "effect": "negative",
+    "mode": {
+     "ja": "ACE 活性部位の亜鉛イオンを含む触媒部位への高親和性・競合的結合（遅い解離速度定数 1〜4×10^-4 s^-1 を伴う）",
+     "en": "High-affinity competitive inhibition of the zinc-dependent active site of ACE with a slow dissociation rate"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "tissue": "Plasma and vascular endothelium"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:2982845",
+      "level": "in_vitro",
+      "claimType": "measured",
+      "supports": {
+       "ja": "エナラプリラートは精製ウサギ肺 ACE を Ki = 2×10^-10 M（pH 7.5、25℃）で競合的に阻害し、酵素ー阻害薬複合体からの遅い解離速度定数（1〜4×10^-4 s^-1）が高い親和性に寄与する。",
+       "en": "Enalaprilat competitively inhibits purified rabbit lung ACE with Ki = 2 x 10^-10 M at pH 7.5 and a slow dissociation rate constant of 1-4 x 10^-4 s^-1."
+      },
+      "species": "Oryctolagus cuniculus",
+      "system": "精製ウサギ肺アンジオテンシン変換酵素（ACE）",
+      "method": "in vitro 競合阻害・結合解離速度論アッセイ"
+     },
+     {
+      "referenceId": "ref:pmid:2982541",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "エナラプリル自体は弱い ACE 阻害活性しか持たないが、エステル加水分解により変換されたエナラプリラートが強力な ACE 阻害薬として作用する。",
+       "en": "Enalapril itself is only a weak ACE inhibitor, whereas its ester hydrolysis product enalaprilat is a potent ACE inhibitor."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト血漿および血管組織 ACE",
+      "method": "エナラプリルの臨床薬理学総説"
+     }
+    ],
+    "step": 2,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:angiotensin-i-converts-to-angiotensin-ii",
+    "source": "angiotensin-i",
+    "target": "angiotensin-ii",
+    "kind": "converts_to",
+    "effect": "positive",
+    "mode": {
+     "ja": "不活性デカペプチド（アンジオテンシン I）から活性オクタペプチド（アンジオテンシン II）への切断",
+     "en": "Cleavage of inactive decapeptide angiotensin I to active octapeptide angiotensin II"
+    },
+    "context": {
+     "species": "Homo sapiens"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:21896148",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "アンジオテンシン II は不活性なデカペプチド前駆体であるアンジオテンシン I から ACE による切断によって生成される。",
+       "en": "Angiotensin II is cleaved from its inactive decapeptide precursor, angiotensin I, by ACE."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒトレニンーアンジオテンシン系",
+      "method": "ACE 阻害薬の臨床薬理総説"
+     }
+    ],
+    "step": 3,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:ace-catalyzes-angiotensin-ii",
+    "source": "ace",
+    "target": "angiotensin-ii",
+    "kind": "catalyzes",
+    "effect": "positive",
+    "mode": {
+     "ja": "アンジオテンシン I からアンジオテンシン II への変換を触媒（エナラプリラートによる ACE 阻害でアンジオテンシン II 産生が低下）",
+     "en": "Catalyzes conversion of angiotensin I to angiotensin II (suppressed when ACE is inhibited by enalaprilat)"
+    },
+    "context": {
+     "species": "Homo sapiens"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:21896148",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "ACE（キニナーゼ II）はアンジオテンシン I から血管収縮ペプチドであるアンジオテンシン II を生成する変換反応を触媒する。",
+       "en": "ACE (kininase II) cleaves the vasoconstrictor octapeptide angiotensin II from its inactive decapeptide precursor angiotensin I."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒトレニンーアンジオテンシン系",
+      "method": "ACE 阻害薬の薬理学総説"
+     }
+    ],
+    "step": 3,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:angiotensin-ii-activates-agtr1",
+    "source": "angiotensin-ii",
+    "target": "agtr1",
+    "kind": "activates",
+    "effect": "positive",
+    "mode": {
+     "ja": "標的臓器表面の AT1 受容体（AGTR1）への結合と活性化（アンジオテンシン II 低下により AT1 受容体刺激が低下）",
+     "en": "Binding and stimulation of AT1 receptors on target organs (reduced when angiotensin II production is inhibited)"
+    },
+    "context": {
+     "species": "Homo sapiens"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:1524767",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "アンジオテンシン II は標的臓器の AT1 受容体を刺激することで、その主要な生理作用を発現する。",
+       "en": "Angiotensin II stimulates AT1 receptors on target organs to elicit its major biological effects."
+      },
+      "species": "Homo sapiens",
+      "system": "標的臓器細胞表面 AT1 受容体",
+      "method": "選択的受容体拮抗薬を用いたアンジオテンシン受容体薬理総説"
+     }
+    ],
+    "step": 4,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:agtr1-increases-vasoconstriction",
+    "source": "agtr1",
+    "target": "vascular-smooth-muscle-constriction",
+    "kind": "increases",
+    "effect": "positive",
+    "mode": {
+     "ja": "AT1 受容体シグナルによる血管平滑筋収縮（AT1 受容体刺激低下により全身末梢血管抵抗が低下）",
+     "en": "AT1 receptor-mediated vasoconstriction (reduced AT1 stimulation decreases systemic vascular resistance)"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "tissue": "Arterial and venous vascular smooth muscle"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:1524767",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "AT1 受容体はアンジオテンシン II による血管収縮作用を媒介する。",
+       "en": "The AT1 receptor mediates angiotensin II-induced vasoconstriction."
+      },
+      "species": "Homo sapiens",
+      "system": "血管平滑筋 AT1 受容体",
+      "method": "アンジオテンシン II 受容体サブタイプ薬理総説"
+     }
+    ],
+    "step": 5,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:agtr1-increases-aldosterone-secretion",
+    "source": "agtr1",
+    "target": "adrenal-aldosterone-secretion",
+    "kind": "increases",
+    "effect": "positive",
+    "mode": {
+     "ja": "AT1 受容体刺激による副腎皮質からのアルドステロン分泌促進（AT1 刺激低下によりアルドステロン分泌が低下）",
+     "en": "Stimulation of adrenal aldosterone secretion via AT1 receptors (reduced when angiotensin II falls)"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "tissue": "Adrenal cortex"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:1524767",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "AT1 受容体はアンジオテンシン II による副腎アルドステロン分泌刺激作用を媒介する。",
+       "en": "The AT1 receptor mediates angiotensin II-induced adrenal aldosterone secretion."
+      },
+      "species": "Homo sapiens",
+      "system": "副腎皮質 AT1 受容体",
+      "method": "アンジオテンシン II 受容体サブタイプ薬理総説"
+     }
+    ],
+    "step": 5,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:agtr1-increases-efferent-arteriole-tone",
+    "source": "agtr1",
+    "target": "efferent-arteriole-tone",
+    "kind": "increases",
+    "effect": "positive",
+    "mode": {
+     "ja": "アンジオテンシン II による腎糸球体輸出細動脈の優先的収縮（エナラプリル等の ACE 阻害により輸出細動脈が拡張）",
+     "en": "Preferential constriction of renal glomerular efferent arterioles by angiotensin II (reversed by ACE inhibition)"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "tissue": "Renal glomerular efferent arteriole"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:1893644",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "アンジオテンシン II は腎の輸出細動脈に対して強力な収縮作用を及ぼす。",
+       "en": "Angiotensin II exerts a potent constrictor action on renal efferent arterioles."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト腎糸球体輸出細動脈",
+      "method": "RAAS による腎循環・血圧制御の総説"
+     },
+     {
+      "referenceId": "ref:pmid:9915266",
+      "level": "human",
+      "claimType": "measured",
+      "supports": {
+       "ja": "うっ血性心不全患者 8 名においてエナラプリル投与（5 mg×2 回）は GFR を増加させずに腎血流量を 45% 増加させ（濾過率低下）、輸出細動脈優位の拡張を引き起こした。",
+       "en": "In 8 CHF patients, enalapril (5 mg twice) increased renal blood flow by 45% without increasing GFR (filtration fraction decreased), indicating predominant efferent arteriole dilatation."
+      },
+      "species": "Homo sapiens",
+      "system": "うっ血性心不全患者（8 名）の腎血管床",
+      "method": "エナラプリル 5 mg×2 回経口投与前後の腎血流量・GFR・濾過率測定"
+     },
+     {
+      "referenceId": "ref:pmid:6377913",
+      "level": "animal",
+      "claimType": "measured",
+      "supports": {
+       "ja": "イヌ腎灌流圧低下モデルにおいて、腎内アンジオテンシン II は輸出細動脈を収縮させることで GFR 維持に寄与し、ACE 阻害薬カプトプリル（SQ 14225）により輸出細動脈抵抗が低下した。",
+       "en": "In dogs, intrarenal angiotensin II constricts efferent arterioles to maintain GFR during reduced renal artery pressure, and ACE inhibition with SQ 14225 (captopril) reduced efferent arteriolar resistance."
+      },
+      "species": "Canis lupus familiaris",
+      "system": "イヌ腎灌流圧低下モデル（腎動脈圧 70 mmHg）",
+      "method": "エナラプリルではなく ACE 阻害薬カプトプリル（SQ 14225）を用いた腎内アンジオテンシン II 生成遮断・再還流実験"
+     }
+    ],
+    "step": 5,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:vasoconstriction-reduction-lowers-bp",
+    "source": "vascular-smooth-muscle-constriction",
+    "target": "blood-pressure-reduction",
+    "kind": "leads_to",
+    "effect": "negative",
+    "mode": {
+     "ja": "血管平滑筋収縮の低下（動脈・静脈拡張と末梢血管抵抗低下）により血圧が低下し、心不全における後負荷・前負荷が軽減される",
+     "en": "Reduction in vascular smooth muscle constriction lowers systemic vascular resistance, reducing blood pressure and cardiac preload/afterload"
+    },
+    "context": {
+     "species": "Homo sapiens"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:2982541",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "エナラプリルは末梢血管抵抗を低下させて高血圧症患者の血圧を下げるとともに、うっ血性心不全患者の前負荷および後負荷を軽減する。",
+       "en": "Enalapril lowers peripheral vascular resistance to reduce blood pressure and decreases cardiac preload and afterload in congestive heart failure."
+      },
+      "species": "Homo sapiens",
+      "system": "高血圧症およびうっ血性心不全患者の循環系",
+      "method": "エナラプリルの臨床血行動態・薬効総説"
+     },
+     {
+      "referenceId": "ref:pmid:2057034",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "左室駆出率低下を伴う慢性心不全患者において、エナラプリルの追加投与は死亡率を 16%、死亡または心不全悪化入院を 26% 減少させた。",
+       "en": "In patients with chronic heart failure and reduced ejection fraction, enalapril reduced mortality by 16% and death or heart failure hospitalization by 26%."
+      },
+      "species": "Homo sapiens",
+      "system": "左室駆出率 0.35 以下の慢性心不全患者（2,569 例）",
+      "method": "二重盲検ランダム化プラセボ対照試験（SOLVD 治療試験）"
+     }
+    ],
+    "step": 6,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:aldosterone-reduction-lowers-bp",
+    "source": "adrenal-aldosterone-secretion",
+    "target": "blood-pressure-reduction",
+    "kind": "leads_to",
+    "effect": "negative",
+    "mode": {
+     "ja": "アルドステロン分泌低下によりナトリウム・水分貯留が減少し、血管内体液量減少と圧力利尿改善を介して血圧低下に寄与",
+     "en": "Reduced aldosterone secretion decreases sodium and water retention, contributing to blood pressure reduction"
+    },
+    "context": {
+     "species": "Homo sapiens"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:2188439",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "ACE 阻害薬はアンジオテンシン II によるアルドステロン刺激（ナトリウム・水分貯留）を抑制し、血管拡張と血管内体液量減少により血圧を低下させる。",
+       "en": "ACE inhibitors block angiotensin II-stimulated aldosterone release and sodium/water retention, lowering blood pressure by vasodilation and reduced intravascular fluid volume."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト副腎・腎ナトリウム体液調節系",
+      "method": "ACE 阻害薬の比較薬理学総説"
+     }
+    ],
+    "step": 6,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:aldosterone-maintains-potassium-excretion",
+    "source": "adrenal-aldosterone-secretion",
+    "target": "hyperkalemia",
+    "kind": "decreases",
+    "effect": "negative",
+    "mode": {
+     "ja": "アルドステロンは腎からのカリウム排泄を促進するため、ACE 阻害によりアルドステロン分泌が低下すると高カリウム血症のリスクが増加する",
+     "en": "Aldosterone promotes renal potassium excretion; reduced aldosterone secretion during ACE inhibition leads to hyperkalemia"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "conditions": "Particularly in chronic kidney disease, heart failure, or combined RAAS blockade"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:34438065",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "RAAS 阻害薬による高カリウム血症は、アルドステロン分泌の低下またはアルドステロン作用への抵抗性増大によって生じる。",
+       "en": "Hyperkalemia with RAAS inhibition results from reduced secretion of aldosterone or increased resistance to aldosterone."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト副腎皮質および腎カリウム排泄系",
+      "method": "RAAS 阻害時の高カリウム血症機序に関する総説"
+     }
+    ],
+    "step": 6,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:efferent-tone-maintains-gfr",
+    "source": "efferent-arteriole-tone",
+    "target": "glomerular-filtration-pressure",
+    "kind": "increases",
+    "effect": "positive",
+    "mode": {
+     "ja": "輸出細動脈収縮は糸球体濾過圧を維持し、ACE 阻害による輸出細動脈拡張は糸球体内圧（濾過率）を低下させ、腎灌流低下時には GFR 低下・血清クレアチニン上昇（高窒素血症）を招く",
+     "en": "Efferent arteriole constriction maintains glomerular filtration pressure; its dilation by ACE inhibition lowers filtration fraction and can reduce GFR (increasing serum creatinine) when renal perfusion is reduced"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "tissue": "Renal glomerulus"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:6377913",
+      "level": "animal",
+      "claimType": "measured",
+      "supports": {
+       "ja": "腎動脈圧を 70 mmHg に低下させたイヌにおいて、ACE 阻害薬カプトプリル（SQ 14225）により腎内アンジオテンシン II による輸出細動脈収縮を遮断すると、GFR および濾過率が対照のそれぞれ 75.6% および 59.0% へ低下した。",
+       "en": "In dogs with renal artery pressure reduced to 70 mmHg, blockade of intrarenal angiotensin II formation with SQ 14225 (captopril) decreased GFR and filtration fraction to 75.6% and 59.0% of control."
+      },
+      "species": "Canis lupus familiaris",
+      "system": "イヌ腎灌流圧低下モデル（腎動脈圧 70 mmHg）",
+      "method": "エナラプリルではなく ACE 阻害薬カプトプリル（SQ 14225）を用いた腎内アンジオテンシン II 生成遮断下の GFR・濾過率測定",
+      "measurement": {
+       "quantity": "GFR_relative_to_control",
+       "value": 75.6,
+       "unit": "%",
+       "conditions": "Renal artery pressure reduced to 70 mmHg after intrarenal ACE blockade with SQ 14225 (captopril) in dogs"
+      }
+     },
+     {
+      "referenceId": "ref:pmid:9000551",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "輸出細動脈におけるアンジオテンシン II 作用の除去は腎保護に寄与する一方、腎動脈狭窄の遠位など輸入細動脈血流が低下した状態では GFR の低下を引き起こす。",
+       "en": "Removing angiotensin II at the efferent arteriole provides renal benefit but can lead to decrements in GFR when afferent blood supply is compromised."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト腎糸球体（腎動脈狭窄等の腎灌流低下状態）",
+      "method": "ACE 阻害薬関連腎不全の病態生理総説"
+     }
+    ],
+    "step": 6,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:ace-inactivates-bradykinin",
+    "source": "ace",
+    "target": "bradykinin",
+    "kind": "decreases",
+    "effect": "negative",
+    "mode": {
+     "ja": "キニナーゼ II（ACE）によるブラジキニン C 末端 Phe-Arg の切断・不活化（ACE 阻害によりブラジキニン分解が低下し蓄積する）",
+     "en": "Inactivation of bradykinin by removal of C-terminal Phe-Arg by ACE/kininase II (ACE inhibition suppresses degradation and causes bradykinin accumulation)"
+    },
+    "context": {
+     "species": "Homo sapiens"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:24925394",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "ACE はブラジキニンの C 末端から Phe-Arg を除去して不活化するため、ACE 阻害薬はブラジキニン分解を抑制して蓄積を引き起こす。",
+       "en": "ACE metabolizes bradykinin by removal of Phe-Arg from the C-terminus, and ACE inhibitors suppress bradykinin degradation so that it accumulates."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト血漿ブラジキニン代謝系",
+      "method": "ブラジキニン代謝と血管浮腫の病態総説"
+     },
+     {
+      "referenceId": "ref:pmid:21896148",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "ACE（キニナーゼ II）はアンジオテンシン II を生成すると同時に血管拡張因子ブラジキニンを不活化する。",
+       "en": "ACE-1 (kininase II) simultaneously inactivates the vasodilator bradykinin."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒトカリクレインーキニン系",
+      "method": "ACE 阻害薬の薬理学総説"
+     }
+    ],
+    "step": 3,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:bradykinin-activates-bdkrb2",
+    "source": "bradykinin",
+    "target": "bdkrb2",
+    "kind": "activates",
+    "effect": "positive",
+    "mode": {
+     "ja": "ブラジキニンによるブラジキニン B2 受容体（BDKRB2）の刺激",
+     "en": "Stimulation of bradykinin B2 receptors by bradykinin"
+    },
+    "context": {
+     "species": "Homo sapiens"
+    },
+    "basis": "measured",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:24925394",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "ブラジキニンは B2 受容体のアゴニストとして作用し、B2 受容体拮抗薬イカチバントがこの受容体を遮断する。",
+       "en": "Bradykinin acts on B2 receptors, which are targeted by the B2 receptor antagonist icatibant."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒトブラジキニン B2 受容体",
+      "method": "ブラジキニン介在性疾患の薬理学総説"
+     }
+    ],
+    "step": 4,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:bradykinin-induces-dry-cough",
+    "source": "bradykinin",
+    "target": "dry-cough",
+    "kind": "leads_to",
+    "effect": "positive",
+    "mode": {
+     "ja": "ACE 阻害により分解が妨げられるブラジキニン（ならびにサブスタンス P・プロスタグランジン等）の蓄積が乾性咳嗽に関与しうるとする機序仮説",
+     "en": "Hypothesized contribution of accumulated bradykinin (along with substance P and prostaglandins) to ACE inhibitor-induced dry cough"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "tissue": "Airways"
+    },
+    "basis": "hypothesis",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:2189318",
+      "level": "hypothesis",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "ACE 阻害薬による咳嗽の発症機序は未確定（unclear）であるが、ACE 阻害により分解が妨げられるブラジキニン、サブスタンス P、プロスタグランジンなどの物質の蓄積が一部関与しうると考えられている。",
+       "en": "The mechanism of ACEI-induced cough remains unclear, but could be in part due to accumulation of substances whose degradation may be impeded by ACEI, such as substance P, bradykinins, and/or prostaglandins."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト気道（気管支反応性・咳嗽反射系）",
+      "method": "ACE 阻害薬誘発性咳嗽の機序仮説に関する臨床総説"
+     },
+     {
+      "referenceId": "ref:pmid:37284934",
+      "level": "hypothesis",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "ACE 阻害によるブラジキニンの蓄積は、咳嗽や血管浮腫といったブラジキニン介在性とされる副作用のリスクを高めると説明されている。",
+       "en": "Inhibition of ACE causes accumulation of bradykinin, which is proposed to increase the risk of bradykinin-mediated side effects such as cough and angioedema."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト気道",
+      "method": "高血圧における ACE 阻害薬と ARB の比較総説"
+     }
+    ],
+    "step": 5,
+    "status": "candidate"
+   },
+   {
+    "id": "edge:bdkrb2-induces-angioedema",
+    "source": "bdkrb2",
+    "target": "angioedema",
+    "kind": "leads_to",
+    "effect": "positive",
+    "mode": {
+     "ja": "ブラジキニン蓄積と B2 受容体刺激を介した血管透過性亢進が血管浮腫を引き起こすとする機序（ただし特異的 B2 受容体拮抗薬イカチバントの介入試験結果は不一致）",
+     "en": "Proposed mechanism whereby bradykinin accumulation and B2 receptor activation cause angioedema (though interventional trials with the B2 antagonist icatibant have shown conflicting results)"
+    },
+    "context": {
+     "species": "Homo sapiens",
+     "tissue": "Face, lips, tongue, uvula, and upper airways"
+    },
+    "basis": "hypothesis",
+    "evidence": [
+     {
+      "referenceId": "ref:pmid:31835086",
+      "level": "hypothesis",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "ACE 阻害薬関連血管浮腫の病態は主にブラジキニンの異化低下と蓄積に依存するとされ、ブラジキニン代謝・作用関連遺伝子の SNP も関与が示唆されるが、特異的ブラジキニン B2 受容体拮抗薬イカチバントの介入試験では相反する結果が報告されている。",
+       "en": "Pathogenesis of ACEi-mediated angioedema depends mainly on reduced catabolism and accumulation of bradykinin, though interventional studies with the specific bradykinin B2 receptor antagonist icatibant have shown conflicting results."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト顔面・口唇・舌・上気道粘膜下組織",
+      "method": "ACE 阻害薬誘発性血管浮腫の病態および介入試験に関する総説"
+     },
+     {
+      "referenceId": "ref:pmid:24925394",
+      "level": "human",
+      "claimType": "clinical_observation",
+      "supports": {
+       "ja": "ACE 阻害薬療法による血管浮腫はブラジキニン分解抑制と蓄積に起因すると位置づけられている。",
+       "en": "Angioedema due to ACE inhibitor therapy is attributed to suppressed bradykinin degradation and accumulation."
+      },
+      "species": "Homo sapiens",
+      "system": "ヒト血管内皮・粘膜下組織",
+      "method": "ブラジキニン介在性疾患の総説"
+     }
+    ],
+    "step": 5,
+    "status": "candidate"
+   }
+  ],
+  "conflicts": [
+   {
+    "id": "conflict:bdkrb2-antagonist-icatibant-efficacy",
+    "about": [
+     "bdkrb2",
+     "angioedema",
+     "edge:bdkrb2-induces-angioedema"
+    ],
+    "summary": {
+     "ja": "ACE 阻害薬誘発性血管浮腫に対するブラジキニン B2 受容体拮抗薬イカチバントの臨床的有効性については、有効性を報告する研究と、介入試験間で結果が一致せず人種差などが影響している可能性を指摘する総説（PMID: 31835086）が存在する。",
+     "en": "While bradykinin B2 receptor antagonism (icatibant) has been proposed as effective in ACE inhibitor-induced angioedema, interventional trials have shown conflicting results, potentially influenced by ethnic differences (PMID: 31835086)."
+    },
+    "referenceIds": [
+     "ref:pmid:24925394",
+     "ref:pmid:31835086"
+    ]
+   }
+  ],
+  "status": "candidate",
+  "revision": 2,
+  "updatedAt": "2026-11-22T15:30:00+09:00"
+ },
+ "references": [
+  {
+   "id": "ref:pmid:6085275",
+   "kind": "review",
+   "title": "The chemistry of enalapril.",
+   "authors": [
+    "Patchett AA"
+   ],
+   "year": 1984,
+   "journal": "British journal of clinical pharmacology",
+   "pmid": "6085275",
+   "doi": "10.1111/j.1365-2125.1984.tb02599.x",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6085275/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:2982845",
+   "kind": "original_article",
+   "title": "Inhibition of rabbit lung angiotensin-converting enzyme by N alpha-[(S)-1-carboxy-3-phenylpropyl]L-alanyl-L-proline and N alpha-[(S)-1-carboxy-3-phenylpropyl]L-lysyl-L-proline.",
+   "authors": [
+    "Bull HG",
+    "Thornberry NA",
+    "Cordes MH",
+    "Patchett AA",
+    "Cordes EH"
+   ],
+   "year": 1985,
+   "journal": "The Journal of biological chemistry",
+   "pmid": "2982845",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2982845/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:24141856",
+   "kind": "original_article",
+   "title": "In vitro drug metabolism by human carboxylesterase 1: focus on angiotensin-converting enzyme inhibitors.",
+   "authors": [
+    "Thomsen R",
+    "Rasmussen HB",
+    "Linnet K",
+    "INDICES Consortium"
+   ],
+   "year": 2014,
+   "journal": "Drug metabolism and disposition: the biological fate of chemicals",
+   "pmid": "24141856",
+   "doi": "10.1124/dmd.113.053512",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24141856/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:26076923",
+   "kind": "original_article",
+   "title": "CES1 genetic variation affects the activation of angiotensin-converting enzyme inhibitors.",
+   "authors": [
+    "Wang X",
+    "Wang G",
+    "Shi J",
+    "Aa J",
+    "Comas R",
+    "Liang Y",
+    "Zhu HJ"
+   ],
+   "year": 2016,
+   "journal": "The pharmacogenomics journal",
+   "pmid": "26076923",
+   "doi": "10.1038/tpj.2015.42",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26076923/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:8261712",
+   "kind": "review",
+   "title": "Enalapril clinical pharmacokinetics and pharmacokinetic-pharmacodynamic relationships. An overview.",
+   "authors": [
+    "MacFadyen RJ",
+    "Meredith PA",
+    "Elliott HL"
+   ],
+   "year": 1993,
+   "journal": "Clinical pharmacokinetics",
+   "pmid": "8261712",
+   "doi": "10.2165/00003088-199325040-00003",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8261712/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:2982541",
+   "kind": "review",
+   "title": "Enalapril, a nonsulfhydryl angiotensin-converting enzyme inhibitor.",
+   "authors": [
+    "Vlasses PH",
+    "Larijani GE",
+    "Conner DP",
+    "Ferguson RK"
+   ],
+   "year": 1985,
+   "journal": "Clinical pharmacy",
+   "pmid": "2982541",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2982541/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:2188439",
+   "kind": "review",
+   "title": "Angiotensin-converting enzyme inhibitors: a comparative review.",
+   "authors": [
+    "Raia JJ Jr",
+    "Barone JA",
+    "Byerly WG",
+    "Lacy CR"
+   ],
+   "year": 1990,
+   "journal": "DICP : the annals of pharmacotherapy",
+   "pmid": "2188439",
+   "doi": "10.1177/106002809002400512",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2188439/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:6089556",
+   "kind": "original_article",
+   "title": "Enalapril worldwide experience.",
+   "authors": [
+    "Davies RO",
+    "Irvin JD",
+    "Kramsch DK",
+    "Walker JF",
+    "Moncloa F"
+   ],
+   "year": 1984,
+   "journal": "The American journal of medicine",
+   "pmid": "6089556",
+   "doi": "10.1016/s0002-9343(84)80055-8",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6089556/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:1524767",
+   "kind": "review",
+   "title": "Angiotensin II receptor subtypes.",
+   "authors": [
+    "Timmermans PB",
+    "Chiu AT",
+    "Herblin WF",
+    "Wong PC",
+    "Smith RD"
+   ],
+   "year": 1992,
+   "journal": "American journal of hypertension",
+   "pmid": "1524767",
+   "doi": "10.1093/ajh/5.6.406",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1524767/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:1893644",
+   "kind": "review",
+   "title": "Control of blood pressure by the renin-angiotensin-aldosterone system.",
+   "authors": [
+    "Hall JE"
+   ],
+   "year": 1991,
+   "journal": "Clinical cardiology",
+   "pmid": "1893644",
+   "doi": "10.1002/clc.4960141802",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1893644/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:6377913",
+   "kind": "original_article",
+   "title": "Control of glomerular filtration rate: role of intrarenally formed angiotensin II.",
+   "authors": [
+    "Kastner PR",
+    "Hall JE",
+    "Guyton AC"
+   ],
+   "year": 1984,
+   "journal": "The American journal of physiology",
+   "pmid": "6377913",
+   "doi": "10.1152/ajprenal.1984.246.6.F897",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6377913/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:9915266",
+   "kind": "original_article",
+   "title": "Abnormal renal vasodilation to an amino acid infusion in congestive heart failure: normalization by enalapril.",
+   "authors": [
+    "Juncos LI",
+    "Juncos LA",
+    "Ferrer MC",
+    "Sampaolessi AH",
+    "Romero JC"
+   ],
+   "year": 1999,
+   "journal": "American journal of kidney diseases : the official journal of the National Kidney Foundation",
+   "pmid": "9915266",
+   "doi": "10.1016/s0272-6386(99)70256-8",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9915266/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:9000551",
+   "kind": "review",
+   "title": "Renal failure related to angiotensin-converting enzyme inhibitors.",
+   "authors": [
+    "Textor SC"
+   ],
+   "year": 1997,
+   "journal": "Seminars in nephrology",
+   "pmid": "9000551",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9000551/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:21896148",
+   "kind": "review",
+   "title": "Angiotensin-converting enzyme inhibitors.",
+   "authors": [
+    "Izzo JL Jr",
+    "Weir MR"
+   ],
+   "year": 2011,
+   "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+   "pmid": "21896148",
+   "doi": "10.1111/j.1751-7176.2011.00508.x",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21896148/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:24925394",
+   "kind": "review",
+   "title": "Bradykinin-mediated diseases.",
+   "authors": [
+    "Kaplan AP"
+   ],
+   "year": 2014,
+   "journal": "Chemical immunology and allergy",
+   "pmid": "24925394",
+   "doi": "10.1159/000358619",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24925394/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:25058867",
+   "kind": "review",
+   "title": "Angiotensin-converting enzyme inhibitor-induced angioedema.",
+   "authors": [
+    "Bezalel S",
+    "Mahlab-Guri K",
+    "Asher I",
+    "Werner B",
+    "Sthoeger ZM"
+   ],
+   "year": 2015,
+   "journal": "The American journal of medicine",
+   "pmid": "25058867",
+   "doi": "10.1016/j.amjmed.2014.07.011",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25058867/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:31835086",
+   "kind": "review",
+   "title": "ACE inhibitor-mediated angioedema.",
+   "authors": [
+    "Montinaro V",
+    "Cicardi M"
+   ],
+   "year": 2020,
+   "journal": "International immunopharmacology",
+   "pmid": "31835086",
+   "doi": "10.1016/j.intimp.2019.106081",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31835086/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:2189318",
+   "kind": "review",
+   "title": "Angiotensin converting enzyme inhibitors and the allergist.",
+   "authors": [
+    "O'Hollaren MT",
+    "Porter GA"
+   ],
+   "year": 1990,
+   "journal": "Annals of allergy",
+   "pmid": "2189318",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2189318/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:37284934",
+   "kind": "review",
+   "title": "ACE-Inhibitors in Hypertension: A Historical Perspective and Current Insights.",
+   "authors": [
+    "Cutrell S",
+    "Alhomoud IS",
+    "Mehta A",
+    "Talasaz AH",
+    "Van Tassell B",
+    "Dixon DL"
+   ],
+   "year": 2023,
+   "journal": "Current hypertension reports",
+   "pmid": "37284934",
+   "doi": "10.1007/s11906-023-01248-2",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37284934/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:34438065",
+   "kind": "review",
+   "title": "Hyperkalemia with RAAS inhibition: Mechanism, clinical significance, and management.",
+   "authors": [
+    "Hundemer GL",
+    "Sood MM"
+   ],
+   "year": 2021,
+   "journal": "Pharmacological research",
+   "pmid": "34438065",
+   "doi": "10.1016/j.phrs.2021.105835",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34438065/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:2057034",
+   "kind": "original_article",
+   "title": "Effect of enalapril on survival in patients with reduced left ventricular ejection fractions and congestive heart failure.",
+   "authors": [
+    "SOLVD Investigators",
+    "Yusuf S",
+    "Pitt B",
+    "Davis CE",
+    "Hood WB",
+    "Cohn JN"
+   ],
+   "year": 1991,
+   "journal": "The New England journal of medicine",
+   "pmid": "2057034",
+   "doi": "10.1056/NEJM199108013250501",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2057034/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:pmid:8579032",
+   "kind": "original_article",
+   "title": "Adverse effects of enalapril in the Studies of Left Ventricular Dysfunction (SOLVD). SOLVD Investigators.",
+   "authors": [
+    "Kostis JB",
+    "Shelton B",
+    "Gosselin G",
+    "Goulet C",
+    "Hood WB Jr",
+    "Kohn RM",
+    "Kubo SH",
+    "Schron E",
+    "Weiss MB",
+    "Willis PW 3rd",
+    "Young JB",
+    "Probstfield J"
+   ],
+   "year": 1996,
+   "journal": "American heart journal",
+   "pmid": "8579032",
+   "doi": "10.1016/s0002-8703(96)90365-8",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8579032/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "pubmed-esummary"
+  },
+  {
+   "id": "ref:label:kegg-japic:00003979",
+   "kind": "label",
+   "title": "KEGG MEDICUS / JAPIC 医療用医薬品添付文書: レニベース錠2.5／錠5／錠10 (YJ: 2144002F2020)",
+   "year": 2025,
+   "url": "https://www.kegg.jp/medicus-bin/japic_med?japic_code=00003979",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "label-page"
+  },
+  {
+   "id": "ref:label:dailymed:2061543d-67e7-46b6-aa56-cafa11ae4b93",
+   "kind": "label",
+   "title": "DailyMed SPL: ENALAPRIL MALEATE TABLET",
+   "year": 2026,
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2061543d-67e7-46b6-aa56-cafa11ae4b93",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "label-page"
+  },
+  {
+   "id": "ref:db:pubchem:5388962",
+   "kind": "database",
+   "title": "PubChem Compound Summary for CID 5388962 (Enalapril)",
+   "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5388962",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  },
+  {
+   "id": "ref:db:pubchem:5388961",
+   "kind": "database",
+   "title": "PubChem Compound Summary for CID 5388961 (Enalapril Maleate)",
+   "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5388961",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  },
+  {
+   "id": "ref:db:pubchem:5462501",
+   "kind": "database",
+   "title": "PubChem Compound Summary for CID 5462501 (Enalaprilat)",
+   "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5462501",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  },
+  {
+   "id": "ref:db:chembl:CHEMBL578",
+   "kind": "database",
+   "title": "ChEMBL Compound Report Card for CHEMBL578 (ENALAPRIL)",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL578/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  },
+  {
+   "id": "ref:db:chembl:CHEMBL1200659",
+   "kind": "database",
+   "title": "ChEMBL Compound Report Card for CHEMBL1200659 (ENALAPRIL MALEATE)",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1200659/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  },
+  {
+   "id": "ref:db:chembl:CHEMBL577",
+   "kind": "database",
+   "title": "ChEMBL Compound Report Card for CHEMBL577 (ENALAPRILAT)",
+   "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL577/",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  },
+  {
+   "id": "ref:db:kegg:D07892",
+   "kind": "database",
+   "title": "KEGG DRUG Entry D07892: Enalapril (INN)",
+   "url": "https://rest.kegg.jp/get/dr:D07892",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  },
+  {
+   "id": "ref:db:kegg:D00621",
+   "kind": "database",
+   "title": "KEGG DRUG Entry D00621: Enalapril maleate (JP19/USP); Renivace (TN); Vasotec (TN)",
+   "url": "https://rest.kegg.jp/get/dr:D00621",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  },
+  {
+   "id": "ref:db:uniprot:P23141",
+   "kind": "database",
+   "title": "UniProtKB Entry P23141 (EST1_HUMAN): Liver carboxylesterase 1 (CES1)",
+   "url": "https://www.uniprot.org/uniprotkb/P23141",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  },
+  {
+   "id": "ref:db:uniprot:P12821",
+   "kind": "database",
+   "title": "UniProtKB Entry P12821 (ACE_HUMAN): Angiotensin-converting enzyme (ACE)",
+   "url": "https://www.uniprot.org/uniprotkb/P12821",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  },
+  {
+   "id": "ref:db:uniprot:P30556",
+   "kind": "database",
+   "title": "UniProtKB Entry P30556 (AGTR1_HUMAN): Type-1 angiotensin II receptor (AGTR1)",
+   "url": "https://www.uniprot.org/uniprotkb/P30556",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  },
+  {
+   "id": "ref:db:uniprot:P30411",
+   "kind": "database",
+   "title": "UniProtKB Entry P30411 (BKRB2_HUMAN): B2 bradykinin receptor (BDKRB2)",
+   "url": "https://www.uniprot.org/uniprotkb/P30411",
+   "retrievedAt": "2026-11-22",
+   "verifiedVia": "database-api"
+  }
+ ]
+}
